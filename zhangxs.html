@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html data-dpr="1.3499999046325684" class="ks-webkit537 ks-webkit ks-chrome69 ks-chrome">
+
 <head>
-  <title>Coppuccino</title>
+  <title>Cappuccino</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <script type="text/javascript" async="" src="./files/entry.js.下载"></script>
-  <script src="./files/index.js.下载" id="femTrackerSdk"></script>
-  <script charset="utf-8" src="./files/saved_resource" async=""></script>
-  <script charset="utf-8" src="./files/saved_resource(1)" async=""></script>
-  <script charset="utf-8" src="./files/index-min.js.下载" async=""></script>
-  <script charset="utf-8" src="./files/index-min.js(1).下载" async=""></script>
-  <script charset="utf-8" src="./files/index-min.js(2).下载" async=""></script>
-  <script charset="utf-8" src="./files/index-min.js(3).下载" async=""></script>
-  <script type="text/javascript" async="" src="./files/index.js(1).下载" id="aplus-sufei"></script>
-  <script charset="utf-8" src="./files/index-min.js(4).下载" async=""></script>
+  <script type="text/javascript" async="" src="./files/entry.js"></script>
+  <script src="./files/index.js" id="femTrackerSdk"></script>
+  <script charset="utf-8" src="./files/saved_resource.js" async=""></script>
+  <script charset="utf-8" src="./files/saved_resource(1).js" async=""></script>
+  <script charset="utf-8" src="./files/index-min.js" async=""></script>
+  <script charset="utf-8" src="./files/index-min1.js" async=""></script>
+  <script charset="utf-8" src="./files/index-min2.js" async=""></script>
+  <script charset="utf-8" src="./files/index-min3.js" async=""></script>
+  <script type="text/javascript" async="" src="./files/index1.js" id="aplus-sufei"></script>
+  <script charset="utf-8" src="./files/index-min4.js" async=""></script>
+  <link rel="stylesheet" type="text/css" href="./files/mm.css">
   <link rel="stylesheet" href="./files/entry.css" charset="utf-8">
-  <script src="./files/entry.js(1).下载" id="anywhere-sdk" charset="utf-8"></script>
+  <script src="./files/entry1.js" id="anywhere-sdk" charset="utf-8"></script>
   <script>/*! 2018-12-27 10:36:39 v8.8.0 */
     !function (e) { function i(n) { if (o[n]) return o[n].exports; var r = o[n] = { exports: {}, id: n, loaded: !1 }; return e[n].call(r.exports, r, r.exports, i), r.loaded = !0, r.exports } var o = {}; return i.m = e, i.c = o, i.p = "", i(0) }([function (e, i) { "use strict"; var o = window, n = document; !function () { var e = 2, r = "ali_analytics"; if (o[r] && o[r].ua && e <= o[r].ua.version) return void (i.info = o[r].ua); var t, a, d, s, c, u, h, l, m, b, f, v, p, w, g, x, z, O = o.navigator, k = O.appVersion, T = O && O.userAgent || "", y = function (e) { var i = 0; return parseFloat(e.replace(/\./g, function () { return 0 === i++ ? "." : "" })) }, _ = function (e, i) { var o, n; i[o = "trident"] = .1, (n = e.match(/Trident\/([\d.]*)/)) && n[1] && (i[o] = y(n[1])), i.core = o }, N = function (e) { var i, o; return (i = e.match(/MSIE ([^;]*)|Trident.*; rv(?:\s|:)?([0-9.]+)/)) && (o = i[1] || i[2]) ? y(o) : 0 }, P = function (e) { return e || "other" }, M = function (e) { function i() { for (var i = [["Windows NT 5.1", "winXP"], ["Windows NT 6.1", "win7"], ["Windows NT 6.0", "winVista"], ["Windows NT 6.2", "win8"], ["Windows NT 10.0", "win10"], ["iPad", "ios"], ["iPhone;", "ios"], ["iPod", "ios"], ["Macintosh", "mac"], ["Android", "android"], ["Ubuntu", "ubuntu"], ["Linux", "linux"], ["Windows NT 5.2", "win2003"], ["Windows NT 5.0", "win2000"], ["Windows", "winOther"], ["rhino", "rhino"]], o = 0, n = i.length; o < n; ++o)if (e.indexOf(i[o][0]) !== -1) return i[o][1]; return "other" } function r(e, i, n, r) { var t, a = o.navigator.mimeTypes; try { for (t in a) if (a.hasOwnProperty(t) && a[t][e] == i) { if (void 0 !== n && r.test(a[t][n])) return !0; if (void 0 === n) return !0 } return !1 } catch (e) { return !1 } } var t, a, d, s, c, u, h, l = "", m = l, b = l, f = [6, 9], v = "{{version}}", p = "<!--[if IE " + v + "]><s></s><![endif]-->", w = n && n.createElement("div"), g = [], x = { webkit: void 0, edge: void 0, trident: void 0, gecko: void 0, presto: void 0, chrome: void 0, safari: void 0, firefox: void 0, ie: void 0, ieMode: void 0, opera: void 0, mobile: void 0, core: void 0, shell: void 0, phantomjs: void 0, os: void 0, ipad: void 0, iphone: void 0, ipod: void 0, ios: void 0, android: void 0, nodejs: void 0, extraName: void 0, extraVersion: void 0 }; if (w && w.getElementsByTagName && (w.innerHTML = p.replace(v, ""), g = w.getElementsByTagName("s")), g.length > 0) { for (_(e, x), s = f[0], c = f[1]; s <= c; s++)if (w.innerHTML = p.replace(v, s), g.length > 0) { x[b = "ie"] = s; break } !x.ie && (d = N(e)) && (x[b = "ie"] = d) } else ((a = e.match(/AppleWebKit\/*\s*([\d.]*)/i)) || (a = e.match(/Safari\/([\d.]*)/))) && a[1] ? (x[m = "webkit"] = y(a[1]), (a = e.match(/OPR\/(\d+\.\d+)/)) && a[1] ? x[b = "opera"] = y(a[1]) : (a = e.match(/Chrome\/([\d.]*)/)) && a[1] ? x[b = "chrome"] = y(a[1]) : (a = e.match(/\/([\d.]*) Safari/)) && a[1] ? x[b = "safari"] = y(a[1]) : x.safari = x.webkit, (a = e.match(/Edge\/([\d.]*)/)) && a[1] && (m = b = "edge", x[m] = y(a[1])), / Mobile\//.test(e) && e.match(/iPad|iPod|iPhone/) ? (x.mobile = "apple", a = e.match(/OS ([^\s]*)/), a && a[1] && (x.ios = y(a[1].replace("_", "."))), t = "ios", a = e.match(/iPad|iPod|iPhone/), a && a[0] && (x[a[0].toLowerCase()] = x.ios)) : / Android/i.test(e) ? (/Mobile/.test(e) && (t = x.mobile = "android"), a = e.match(/Android ([^\s]*);/), a && a[1] && (x.android = y(a[1]))) : (a = e.match(/NokiaN[^\/]*|Android \d\.\d|webOS\/\d\.\d/)) && (x.mobile = a[0].toLowerCase()), (a = e.match(/PhantomJS\/([^\s]*)/)) && a[1] && (x.phantomjs = y(a[1]))) : (a = e.match(/Presto\/([\d.]*)/)) && a[1] ? (x[m = "presto"] = y(a[1]), (a = e.match(/Opera\/([\d.]*)/)) && a[1] && (x[b = "opera"] = y(a[1]), (a = e.match(/Opera\/.* Version\/([\d.]*)/)) && a[1] && (x[b] = y(a[1])), (a = e.match(/Opera Mini[^;]*/)) && a ? x.mobile = a[0].toLowerCase() : (a = e.match(/Opera Mobi[^;]*/)) && a && (x.mobile = a[0]))) : (d = N(e)) ? (x[b = "ie"] = d, _(e, x)) : (a = e.match(/Gecko/)) && (x[m = "gecko"] = .1, (a = e.match(/rv:([\d.]*)/)) && a[1] && (x[m] = y(a[1]), /Mobile|Tablet/.test(e) && (x.mobile = "firefox")), (a = e.match(/Firefox\/([\d.]*)/)) && a[1] && (x[b = "firefox"] = y(a[1]))); t || (t = i()); var z, O, T; if (!r("type", "application/vnd.chromium.remoting-viewer")) { z = "scoped" in n.createElement("style"), T = "v8Locale" in o; try { O = o.external || void 0 } catch (e) { } if (a = e.match(/360SE/)) u = "360"; else if ((a = e.match(/SE\s([\d.]*)/)) || O && "SEVersion" in O) u = "sougou", h = y(a[1]) || .1; else if ((a = e.match(/Maxthon(?:\/)+([\d.]*)/)) && O) { u = "maxthon"; try { h = y(O.max_version || a[1]) } catch (e) { h = .1 } } else z && T ? u = "360se" : z || T || !/Gecko\)\s+Chrome/.test(k) || x.opera || x.edge || (u = "360ee") } (a = e.match(/TencentTraveler\s([\d.]*)|QQBrowser\/([\d.]*)/)) ? (u = "tt", h = y(a[2]) || .1) : (a = e.match(/LBBROWSER/)) || O && "LiebaoGetVersion" in O ? u = "liebao" : (a = e.match(/TheWorld/)) ? (u = "theworld", h = 3) : (a = e.match(/TaoBrowser\/([\d.]*)/)) ? (u = "taobao", h = y(a[1]) || .1) : (a = e.match(/UCBrowser\/([\d.]*)/)) && (u = "uc", h = y(a[1]) || .1), x.os = t, x.core = x.core || m, x.shell = b, x.ieMode = x.ie && n.documentMode || x.ie, x.extraName = u, x.extraVersion = h; var P = o.screen.width, M = o.screen.height; return x.resolution = P + "x" + M, x }, S = function (e) { function i(e) { return Object.prototype.toString.call(e) } function o(e, o, n) { if ("[object Function]" == i(o) && (o = o(n)), !o) return null; var r = { name: e, version: "" }, t = i(o); if (o === !0) return r; if ("[object String]" === t) { if (n.indexOf(o) !== -1) return r } else if (o.exec) { var a = o.exec(n); if (a) return a.length >= 2 && a[1] ? r.version = a[1].replace(/_/g, ".") : r.version = "", r } } var n = { name: "other", version: "" }; e = (e || "").toLowerCase(); for (var r = [["nokia", function (e) { return e.indexOf("nokia ") !== -1 ? /\bnokia ([0-9]+)?/ : /\bnokia([a-z0-9]+)?/ }], ["samsung", function (e) { return e.indexOf("samsung") !== -1 ? /\bsamsung(?:[ \-](?:sgh|gt|sm))?-([a-z0-9]+)/ : /\b(?:sgh|sch|gt|sm)-([a-z0-9]+)/ }], ["wp", function (e) { return e.indexOf("windows phone ") !== -1 || e.indexOf("xblwp") !== -1 || e.indexOf("zunewp") !== -1 || e.indexOf("windows ce") !== -1 }], ["pc", "windows"], ["ipad", "ipad"], ["ipod", "ipod"], ["iphone", /\biphone\b|\biph(\d)/], ["mac", "macintosh"], ["mi", /\bmi[ \-]?([a-z0-9 ]+(?= build|\)))/], ["hongmi", /\bhm[ \-]?([a-z0-9]+)/], ["aliyun", /\baliyunos\b(?:[\-](\d+))?/], ["meizu", function (e) { return e.indexOf("meizu") >= 0 ? /\bmeizu[\/ ]([a-z0-9]+)\b/ : /\bm([0-9x]{1,3})\b/ }], ["nexus", /\bnexus ([0-9s.]+)/], ["huawei", function (e) { var i = /\bmediapad (.+?)(?= build\/huaweimediapad\b)/; return e.indexOf("huawei-huawei") !== -1 ? /\bhuawei\-huawei\-([a-z0-9\-]+)/ : i.test(e) ? i : /\bhuawei[ _\-]?([a-z0-9]+)/ }], ["lenovo", function (e) { return e.indexOf("lenovo-lenovo") !== -1 ? /\blenovo\-lenovo[ \-]([a-z0-9]+)/ : /\blenovo[ \-]?([a-z0-9]+)/ }], ["zte", function (e) { return /\bzte\-[tu]/.test(e) ? /\bzte-[tu][ _\-]?([a-su-z0-9\+]+)/ : /\bzte[ _\-]?([a-su-z0-9\+]+)/ }], ["vivo", /\bvivo(?: ([a-z0-9]+))?/], ["htc", function (e) { return /\bhtc[a-z0-9 _\-]+(?= build\b)/.test(e) ? /\bhtc[ _\-]?([a-z0-9 ]+(?= build))/ : /\bhtc[ _\-]?([a-z0-9 ]+)/ }], ["oppo", /\boppo[_]([a-z0-9]+)/], ["konka", /\bkonka[_\-]([a-z0-9]+)/], ["sonyericsson", /\bmt([a-z0-9]+)/], ["coolpad", /\bcoolpad[_ ]?([a-z0-9]+)/], ["lg", /\blg[\-]([a-z0-9]+)/], ["android", /\bandroid\b|\badr\b/], ["blackberry", function (e) { return e.indexOf("blackberry") >= 0 ? /\bblackberry\s?(\d+)/ : "bb10" }]], t = 0; t < r.length; t++) { var a = r[t][0], d = r[t][1], s = o(a, d, e); if (s) { n = s; break } } return n }, E = 1; try { t = M(T), a = S(T), d = t.os, s = t.shell, c = t.core, u = t.resolution, h = t.extraName, l = t.extraVersion, m = a.name, b = a.version, v = d ? d + (t[d] ? t[d] : "") : "", p = s ? s + parseInt(t[s]) : "", w = c, g = u, x = h ? h + (l ? parseInt(l) : "") : "", z = m + b } catch (e) { } f = { p: E, o: P(v), b: P(p), w: P(w), s: g, mx: x, ism: z }, o[r] || (o[r] = {}), o[r].ua || (o[r].ua = {}), o.goldlog || (o.goldlog = {}), i.info = o[r].ua = goldlog._aplus_client = { version: e, ua_info: f } }() }]);/*! 2017-10-31 20:15:15 v0.2.4 */
     !function (t) { function e(o) { if (n[o]) return n[o].exports; var i = n[o] = { exports: {}, id: o, loaded: !1 }; return t[o].call(i.exports, i, i.exports, e), i.loaded = !0, i.exports } var n = {}; return e.m = t, e.c = n, e.p = "", e(0) }([function (t, e, n) { "use strict"; !function () { var t = window.goldlog || (window.goldlog = {}); t._aplus_cplugin_utilkit || (t._aplus_cplugin_utilkit = { status: "init" }, n(1).init(t), t._aplus_cplugin_utilkit.status = "complete") }() }, function (t, e, n) { "use strict"; var o = n(2), i = n(4); e.init = function (t) { t.setCookie = o.setCookie, t.getCookie = o.getCookie, t.on = i.on } }, function (t, e, n) { "use strict"; var o = document, i = n(3), a = function (t) { var e = new RegExp("(?:^|;)\\s*" + t + "=([^;]+)"), n = o.cookie.match(e); return n ? n[1] : "" }; e.getCookie = a; var r = function (t, e, n) { n || (n = {}); var i = new Date; return n.expires && ("number" == typeof n.expires || n.expires.toUTCString) ? ("number" == typeof n.expires ? i.setTime(i.getTime() + 24 * n.expires * 60 * 60 * 1e3) : i = n.expires, e += "; expires=" + i.toUTCString()) : "session" !== n.expires && (i.setTime(i.getTime() + 63072e7), e += "; expires=" + i.toUTCString()), e += "; path=" + (n.path ? n.path : "/"), e += "; domain=" + n.domain, o.cookie = t + "=" + e, a(t) }; e.setCookie = function (t, e, n) { try { if (n || (n = {}), n.domain) r(t, e, n); else for (var o = i.getDomains(), a = 0; a < o.length;)n.domain = o[a], r(t, e, n) ? a = o.length : a++ } catch (t) { } } }, function (t, e) { "use strict"; e.getDomains = function () { var t = []; try { for (var e = location.hostname, n = e.split("."), o = 2; o <= n.length;)t.push(n.slice(n.length - o).join(".")), o++ } catch (t) { } return t } }, function (t, e) { "use strict"; var n = window, o = document, i = !!o.attachEvent, a = "attachEvent", r = "addEventListener", c = i ? a : r, u = function (t, e) { var n = goldlog._$ || {}, o = n.meta_info || {}, i = o.aplus_ctap || {}; if (i && "function" == typeof i.on) i.on(t, e); else { var a = "ontouchend" in document.createElement("div"), r = a ? "touchstart" : "mousedown"; s(t, r, e) } }, s = function (t, e, o) { return "tap" === e ? void u(t, o) : void t[c]((i ? "on" : "") + e, function (t) { t = t || n.event; var e = t.target || t.srcElement; "function" == typeof o && o(t, e) }, !1) }; e.on = s; var d = function (t) { try { o.documentElement.doScroll("left") } catch (e) { return void setTimeout(function () { d(t) }, 1) } t() }, l = function (t) { var e = 0, n = function () { 0 === e && t(), e++ }; "complete" === o.readyState && n(); var i; if (o.addEventListener) i = function () { o.removeEventListener("DOMContentLoaded", i, !1), n() }, o.addEventListener("DOMContentLoaded", i, !1), window.addEventListener("load", n, !1); else if (o.attachEvent) { i = function () { "complete" === o.readyState && (o.detachEvent("onreadystatechange", i), n()) }, o.attachEvent("onreadystatechange", i), window.attachEvent("onload", n); var a = !1; try { a = null === window.frameElement } catch (t) { } o.documentElement.doScroll && a && d(n) } }; e.DOMReady = function (t) { l(t) }, e.onload = function (t) { "complete" === o.readyState ? t() : s(n, "load", t) } }]);/*! 2017-12-19 12:10:24 v0.2.9 */
@@ -37,8 +39,8 @@
       })
     }, function (t, e, n) { "use strict"; var o = n(8), a = n(24), r = n(36), i = n(22), s = n(84), u = n(85), c = n(3); e.run = function (t, e, n, l) { var p = new u; p.init({ middleware: [], config: t, plugins: c.plugins_hjlj }); var g = p.run(), f = new c.context_hjlj; f.userdata = e, f.logger = i.logger; var d = { context: f, pubsub: a.getGoldlogVal("aplus_pubsub"), pubsubType: "hjlj" }, h = new s; h.create(d), h.wrap(g, function () { d.context.status = "complete", d.context.method = t.method, r.doPubMsg(["mw_change_hjlj", d.context]), n && n.fn_after_record && o.each(n.fn_after_record, function (t) { t(window.goldlog) }), "function" == typeof l && l() })() } }, function (t, e, n) { "use strict"; function o() { } var a = n(23), r = n(21), i = n(22), s = n(80), u = n(10); o.prototype.create = function (t) { for (var e in t) "undefined" == typeof this[e] && (this[e] = t[e]); return this }, o.prototype.pubsubInfo = function (t, e) { try { t && t.pubsub && t.pubsub.publish("mw_change_" + t.pubsubType, t.context, e) } catch (t) { } }, o.prototype.calledList = [], o.prototype.setCalledList = function (t) { a.indexof(this.calledList, t) === -1 && this.calledList.push(t) }, o.prototype.resetCalledList = function () { this.calledList = [] }, o.prototype.wrap = function (t, e) { var n = this, o = this.context || {}, c = o.compose || {}, l = c.maxTimeout || 1e4; return function (o) { var c, p = t.length, g = 0, f = 0, d = function () { if (n.pubsubInfo(n, t[g]), g === p) return o = "done", n.resetCalledList(), "function" == typeof e && e.call(n, o), void clearTimeout(c); if (a.indexof(n.calledList, g) === -1) { if (n.setCalledList(g), !t[g] || "function" != typeof t[g][0]) return; try { o = t[g][0].call(n, o, function () { g++ , f = 1, clearTimeout(c), d(g) }) } catch (e) { s.do_tracker_jserror({ message: e ? e.message : "compose middleware error", error: encodeURIComponent(e.stack), filename: t[g][1] }) } } var h = "number" == typeof o; if ("pause" === o || h) { f = 0; var m = h ? o : l, _ = t[g] ? t[g][1] : ""; c = r.sleep(m, function () { if (0 === f) { var t = "jump the middleware about " + _ + ", because waiting timeout maxTimeout = " + m + "ms!"; i.logger({ msg: t }); var e = window.goldlog_queue || (window.goldlog_queue = []); e.push({ action: "goldlog._aplus_cplugin_m.do_tracker_browser_support", arguments: [{ msg: t, spmab: goldlog.spm_ab, page: location.href, etag: n.context ? JSON.stringify(n.context.etag) : "", cna: document.cookie ? u.getCookie("cna") : "" }] }), o = null, g++ , d(g) } }) } else "done" === o ? (g = p, d(g)) : (g++ , d(g)) }; return n.calledList && n.calledList.length > 0 && n.resetCalledList(), d(g) } }, t.exports = o }, function (t, e, n) { "use strict"; var o = n(23); t.exports = function () { return { init: function (t) { this.opts = t, t && "object" == typeof t.middleware && t.middleware.length > 0 ? this.middleware = t.middleware : this.middleware = [], this.plugins_name = [] }, pubsubInfo: function (t, e) { try { var n = t.pubsub; n && n.publish("plugins_change_" + t.pubsubType, e) } catch (t) { } }, checkPluginLoader: function (t, e) { var n = !0; if ("object" == typeof e.enable && "function" == typeof e.enable.isEnable ? n = e.enable.isEnable(e.name) : "boolean" == typeof e.enable && (n = !!e.enable), !n) return !1; if (n && e.deps && e.deps.length > 0) for (var a = 0; a < e.deps.length; a++)if (o.indexof(this.plugins_name, e.deps[a]) === -1) return !1; return !0 }, run: function (t) { t || (t = 0); var e = this, n = this.middleware, o = this.opts || {}, a = o.plugins; if (a && "object" == typeof a && a.length > 0) { var r = a[t]; if (this.checkPluginLoader(a, r) && (this.plugins_name.push(r.name), n.push([function (t, n) { e.pubsubInfo(this, r); var a = new r.path; return a.init({ context: this.context, config: o.config }), a.run(t, n) }, r.name])), t++ , a[t]) return this.run(t) } else window.console && console.log("aplus plugins " + JSON.stringify(a) + " must be object of array!"); return n } } } }, function (t, e, n) { "use strict"; function o() { var t = "true" === l.disablePvid; try { var e = goldlog.getMetaInfo("aplus-disable-pvid") + ""; "true" === e ? t = !0 : "false" === e && (t = !1) } catch (t) { } return t } function a(t) { function e(t) { var e = "0123456789abcdefhijklmnopqrstuvwxyzABCDEFHIJKLMNOPQRSTUVWXYZ", n = "0123456789abcdefghijkmnopqrstuvwxyzABCDEFGHIJKMNOPQRSTUVWXYZ"; return 1 == t ? e.substr(Math.floor(60 * Math.random()), 1) : 2 == t ? n.substr(Math.floor(60 * Math.random()), 1) : "0" } for (var n, o = "", a = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", r = !1; o.length < t;)n = a.substr(Math.floor(62 * Math.random()), 1), !r && o.length <= 2 && ("g" == n.toLowerCase() || "l" == n.toLowerCase()) && (0 === o.length && "g" == n.toLowerCase() ? Math.random() < .5 && (n = e(1), r = !0) : 1 == o.length && "l" == n.toLowerCase() && "g" == o.charAt(0).toLowerCase() && (n = e(2), r = !0)), o += n; return o } function r(t, e, n) { return t ? u.hash(encodeURIComponent(t)).substr(0, e) : n } function i() { var t = a(8), e = t.substr(0, 4), n = t.substr(0, 6); return [r(location.href, 4, e), r(document.title, 4, e), n].join("") } function s() { var t = goldlog.pvid; return goldlog.pvid = i(), c.doPubMsg(["pvidChange", { pre_pvid: t, pvid: goldlog.pvid }]), c.doCachePubs(["pvidChange", { pre_pvid: t, pvid: goldlog.pvid }]), o() ? "" : goldlog.pvid } var u = n(87), c = n(36), l = n(3); e.isDisablePvid = o, e.makePVId = s, e.getPvId = function () { return o() ? "" : goldlog.pvid } }, function (t, e) { "use strict"; var n = 1315423911; e.hash = function (t, e) { var o, a, r = e || n; for (o = t.length - 1; o >= 0; o--)a = t.charCodeAt(o), r ^= (r << 5) + a + (r >> 2); var i = (2147483647 & r).toString(16); return i } }, function (t, e, n) { "use strict"; var o = n(8), a = n(24), r = n(36), i = n(22), s = n(84), u = n(85), c = n(3), l = function () { }; l.prototype.run = function (t, e, n) { var l = new u; l.init({ middleware: [], config: t, plugins: c.plugins_pv }); var p = l.run(), g = new c.context; g.userdata = e, g.logger = i.logger; var f = { context: g, pubsub: a.getGoldlogVal("aplus_pubsub"), pubsubType: "pv" }, d = new s; d.create(f), d.wrap(p, function () { var e = f.context.can_to_sendpv || {}; f.context.status = "YES" === e.flag ? "complete" : "skip", f.context.method = t.method || "GET", r.doPubMsg(["mw_change_pv", f.context]), n && n.fn_after_record && o.each(n.fn_after_pv, function (e) { e(window.goldlog, t) }) })() }, e.SendPV = l }, function (t, e, n) { "use strict"; var o = n(8), a = n(24), r = n(36), i = n(22), s = n(84), u = n(85), c = n(3), l = function () { }; l.prototype.run = function (t, e, n, l) { var p = new u; p.init({ middleware: [], config: t, plugins: c.plugins_prepv }); var g = p.run(), f = new c.context_prepv; f.userdata = e, f.logger = i.logger; var d = { context: f, pubsub: a.getGoldlogVal("aplus_pubsub"), pubsubType: "prepv" }, h = new s; h.create(d), h.wrap(g, function () { d.context.status = "complete", r.doPubMsg(["mw_change_prepv", d.context]), n && n.fn_after_record && o.each(n.fn_after_pv, function (e) { e(window.goldlog, t) }), a.setGoldlogVal("prepv_context", f), "function" == typeof l && l() })() }, e.SendPrePV = l }, function (t, e, n) { "use strict"; !function () { var t = window.goldlog || (window.goldlog = {}), e = n(91); t.aplus_pubsub || (t.aplus_pubsub = e.create()) }() }, function (t, e, n) { "use strict"; function o(t) { if ("function" != typeof t) throw new TypeError(t + " is not a function"); return t } var a = n(78), r = function (t) { for (var e = t.length, n = new Array(e - 1), o = 1; o < e; o++)n[o - 1] = t[o]; return n }, i = a.extend({ create: function (t) { var e = new this; for (var n in t) e[n] = t[n]; return e.handlers = [], e.pubs = {}, e }, setHandlers: function (t) { this.handlers = t }, subscribe: function (t, e) { o(e); var n = this, a = n.pubs || {}, r = a[t] || []; if (r) for (var i = 0; i < r.length; i++) { var s = r[i](); e.apply(n, s) } var u = n.handlers || []; return t in u || (u[t] = []), u[t].push(e), n.setHandlers(u), n }, subscribeOnce: function (t, e) { o(e); var n, a = this; return this.subscribe.call(this, t, n = function () { a.unsubscribe.call(a, t, n); var o = Array.prototype.slice.call(arguments); e.apply(a, o) }), this }, unsubscribe: function (t, e) { o(e); var n = this.handlers[t]; if (!n) return this; if ("object" == typeof n && n.length > 0) { for (var a = 0; a < n.length; a++) { var r = e.toString(), i = n[a].toString(); r === i && n.splice(a, 1) } this.handlers[t] = n } else delete this.handlers[t]; return this }, publish: function (t) { var e = r(arguments), n = this.handlers || [], o = n[t] ? n[t].length : 0; if (o > 0) for (var a = 0; a < o; a++) { var i = n[t][a]; i && "function" == typeof i && i.apply(this, e) } return this }, cachePubs: function (t) { var e = this.pubs || {}, n = r(arguments); e[t] || (e[t] = []), e[t].push(function () { return n }) } }); t.exports = i }, function (t, e, n) { "use strict"; var o = n(39), a = n(36), r = n(52), i = n(3); e.init = function () { i.initLoad.init_watchGoldlogQueue("metaQueue"), n(93)(function () { var t = goldlog._$ || {}, e = navigator.userAgent; e.match(/AliApp\(([A-Z\-]+)\/([\d\.]+)\)/i) && (t.is_ali_app = !0), i.utilPvid.makePVId(); var s = n(50); t.spm = s, t.is_WindVane = o.is_WindVane; var u = t.meta_info; s.init(goldlog, u, function () { i.initLoad.init_watchGoldlogQueue(); var t = n(3).spmException, e = t.is_exception; e || n(95), a.doPubMsg(["aplusReady", "complete"]), a.doCachePubs(["aplusReady", "complete"]) }), goldlog.beforeSendPV(function (e, n) { if (t.page_url = location.href, t.page_referrer = r.getRefer(), n.is_auto && "1" === u["aplus-manual-pv"]) return !1 }), goldlog.afterSendPV(function () { window.g_SPM && (g_SPM._current_spm = "") }), i.is_auto_pv + "" == "true" && goldlog.sendPV({ is_auto: !0 }), i.initLoad.run(), i.beforeUnload.run() }) } }, function (t, e, n) { "use strict"; var o = n(36); t.exports = function (t) { var e = n(94).AplusInit, a = new e; a.run({}, function (e) { o.doPubMsg(["aplusInitContext", e]), o.doCachePubs(["aplusInitContext", e]), "function" == typeof t && t() }) } }, function (t, e, n) { "use strict"; var o = n(24), a = n(22), r = n(84), i = n(85), s = n(3), u = function () { }; u.prototype.run = function (t, e) { var n = new i; n.init({ middleware: [], config: t, plugins: s.aplus_init }); var u = n.run(), c = new s.context; c.logger = a.logger; var l = { context: c, pubsub: o.getGoldlogVal("aplus_pubsub"), pubsubType: "aplusinit" }, p = new r; p.create(l), p.wrap(u, function () { "function" == typeof e && e(l.context) })() }, e.AplusInit = u }, function (t, e, n) { "use strict"; !function () { var t, e = n(8), o = n(24), a = n(96), r = function () { t = !0; var n = window.g_SPM || {}; e.isFunction(n.getParam) || e.isFunction(n.spm) || a.run() }, i = window.goldlog || (window.goldlog = {}); i.aplus_pubsub && "function" == typeof i.aplus_pubsub.publish && i.aplus_pubsub.subscribe("goldlogReady", function (e) { "complete" !== e || t || r() }); var s = 0, u = function () { if (!t) { var e = o.getGoldlogVal("_$") || {}; "complete" === e.status ? r() : s < 50 && (++s, setTimeout(function () { u() }, 200)) } }; u() }() }, function (t, e, n) { "use strict"; var o = n(29), a = n(24), r = n(97), i = n(101), s = n(102), u = n(103), c = n(104); e.run = function () { var t = a.getGoldlogVal("_$") || {}, e = t.meta_info, n = e["aplus-touch"], l = { isTouchEnabled: o.isTouch() || "1" === n || "tap" === n, isTerminal: t.is_terminal || /WindVane/i.test(navigator.userAgent) }; window.g_SPM = { spm_d_for_ad: {}, resetModule: r.spm_resetModule, anchorBeacon: r.spm_spmAnchorChk, getParam: r.spm_getSPMParam, spm: r.spm_forwap }, i.run(l), s.run(l), u.run(l), c.run(l) } }, function (t, e, n) { "use strict"; function o(t) { if (t && 1 === t.nodeType) { s.tryToRemoveAttribute(t, "data-spm-max-idx"), s.tryToRemoveAttribute(t, "data-auto-spmd-max-idx"); for (var e = u.nodeListToArray(t.getElementsByTagName("a")), n = u.nodeListToArray(t.getElementsByTagName("area")), o = e.concat(n), a = 0; a < o.length; a++)s.tryToRemoveAttribute(o[a], l) } } function a(t, e) { var n = s.tryToGetAttribute(t, l), o = "0"; if (n && c.spm_isSPMAnchorIdMatch(n)) c.spm_anchorEnsureSPMId_inHref(t, n, e); else { var a = c.spm_spmGetParentSPMId(t.parentNode); if (o = a.spm_c, !o) return void c.spm_dealNoneSPMLink(t, e); c.spm_initSPMModule(a.el, o, e), c.spm_initSPMModule(a.el, o, e, !0) } } function r(t) { var e, n = t.tagName; "A" !== n && "AREA" !== n ? e = c.spm_getParamForAD(t) : (a(t, !0), e = s.tryToGetAttribute(t, l)), e || (e = "0.0.0.0"); var o = goldlog.getPvId(); 4 === e.split(".").length && o && (e += "." + o), "A" !== n && "AREA" !== n && s.tryToSetAttribute(t, l, e), e = e.split("."); var r = { a: e[0], b: e[1], c: e[2], d: e[3] }; return e[4] && (r.e = e[4]), r } function i(t, e) { var n = r(t), o = [n.a, n.b, n.c, n.d]; return e && n.e && o.push(n.e), o.join(".") } var s = n(26), u = n(17), c = n(98), l = "data-spm-anchor-id"; e.spm_resetModule = o, e.spm_spmAnchorChk = a, e.spm_getSPMParam = r, e.spm_forwap = i }, function (t, e, n) { "use strict"; function o(t) { for (var e, n = "data-spm-ab-max-idx", o = {}, a = ""; t && t.tagName != T && t.tagName != x;) { if (!a && (a = v.tryToGetAttribute(t, "data-spm-ab"))) { e = parseInt(v.tryToGetAttribute(t, n)) || 0, o.a_spm_ab = a, o.ab_idx = ++e, t.setAttribute(n, e); break } if (v.tryToGetAttribute(t, "data-spm")) break; t = t.parentNode } return o } function a() { var t = b.getGoldlogVal("_$") || {}, e = t.spm.data; return [e.a, e.b].join(".") } function r(t) { var e = a(), n = t.split("."); return n[0] + "." + n[1] == e } function i(t, e) { if (!goldlog.isUT4Aplus || "UT4Aplus" !== goldlog.getMetaInfo("aplus-toUT")) { if (t && /&?\bspm=[^&#]*/.test(t) && (t = t.replace(/&?\bspm=[^&#]*/g, "").replace(/&{2,}/g, "&").replace(/\?&/, "?").replace(/\?$/, "")), !e) return t; var n, o, a, r, i, s, u, c = "&"; t.indexOf("#") !== -1 && (a = t.split("#"), t = a.shift(), o = a.join("#")), r = t.split("?"), i = r.length - 1, a = r[0].split("//"), a = a[a.length - 1].split("/"), s = a.length > 1 ? a.pop() : "", i > 0 && (n = r.pop(), t = r.join("?")), n && i > 1 && n.indexOf("&") == -1 && n.indexOf("%") !== -1 && (c = "%26"); var l = ""; if (t = t + "?spm=" + l + e + (n ? c + n : "") + (o ? "#" + o : ""), u = m.isContain(s, ".") ? s.split(".").pop().toLowerCase() : "") { if ({ png: 1, jpg: 1, jpeg: 1, gif: 1, bmp: 1, swf: 1 }.hasOwnProperty(u)) return 0; !n && i <= 1 && (o || { htm: 1, html: 1, php: 1, aspx: 1 }.hasOwnProperty(u) || (t += "&file=" + s)) } return t } } function s(t, e) { if (!goldlog.isUT4Aplus || "UT4Aplus" !== goldlog.getMetaInfo("aplus-toUT")) { var n, o = t.innerHTML; o && o.indexOf("<") == -1 && (n = document.createElement("b"), n.style.display = "none", t.appendChild(n)), t.href = e, n && t.removeChild(n) } } function u(t, e, n) { if (!/^0\.0\.?/.test(e)) { var o = y.tryToGetHref(t), r = a(), u = w.is_ignore_spm(t); if (u) { var c = h.param2obj(o); if (c.spm && c.spm.split) for (var l = c.spm.split("."), p = e.split("."), g = 0; g < 3 && p[g] === l[g]; g++)2 === g && l[3] && (e = c.spm) } t.setAttribute("data-spm-anchor-id", e); var f = goldlog.getPvId(); f && (e += "." + f); var d = "0.0"; (f || r && r != d) && (u || n || (o = i(o, e)) && s(t, o)) } } function c(t) { var e = v.tryToGetAttribute(t, P), n = _.parseSemicolonContent(e) || {}; return n } function l(t) { var e, n = b.getGoldlogVal("_$") || {}, o = n.spm.data; return "0" == o.a && "0" == o.b ? e = "0" : (e = v.tryToGetAttribute(t, j), e && e.match(/^d\w+$/) || (e = "")), e } function p(t, e) { for (var n = [], o = _.nodeListToArray(t.getElementsByTagName("a")), a = _.nodeListToArray(t.getElementsByTagName("area")), r = o.concat(a), i = 0; i < r.length; i++) { for (var s = !1, u = r[i], c = r[i]; (u = u.parentNode) && u != t;)if (v.tryToGetAttribute(u, j)) { s = !0; break } if (!s) { var l = v.tryToGetAttribute(c, A); e || "t" === l ? e && "t" === l && n.push(c) : n.push(c) } } return n } function g(t) { for (var e, n = t; t && t.tagName !== T && t.tagName !== x && t.getAttribute;) { var o = t.getAttribute(j); if (o) { e = o, n = t; break } if (!(t = t.parentNode)) break } return e && !/^[\w\-\.\/]+$/.test(e) && (e = "0"), { spm_c: e, el: n } } function f(t, e) { var n = parent !== self; if (!n && e) return [t, e].join("."); if (t && e) return t + ".i" + e; var o = window.g_SPM || (window.g_SPM = {}), a = o.spm_d_for_ad || {}; return "number" == typeof a[t] ? a[t]++ : a[t] = 0, o.spm_d_for_ad = a, t + ".i" + a[t] } function d(t) { var e; return t && (e = t.match(/&?\bspm=([^&#]*)/)) ? e[1] : "" } var h = n(16), m = n(8), _ = n(17), v = n(26), b = n(24), y = n(99), w = n(100), x = "BODY", T = "HTML", j = "data-spm", P = "data-spm-click", A = "data-auto-spmd", S = "data-spm-anchor-id"; e.getGlobalSPMId = a, e.spm_isSPMAnchorIdMatch = r, e.spm_updateHrefWithSPMId = i, e.spm_writeHref = s, e.spm_anchorEnsureSPMId_inHref = u, e.getElDataSpm = c, e.spm_getAnchor4thId_spm_d = l, e.spm_getModuleLinks = p, e.spm_spmGetParentSPMId = g, e.get_spm_for_ad = f, e.spm_getParamForAD = function (t) { var e = v.tryToGetAttribute(t, S); if (!e) { var n = a(), o = t.parentNode; if (!o) return ""; var r = c(t) || {}, i = r.locaid || "", s = t.getAttribute(j) || i, u = g(o), l = u.spm_c || 0; l && l.indexOf(".") !== -1 && (l = l.split("."), l = l[l.length - 1]), e = f(n + "." + l, s) } return e }, e.spm_initSPMModule = function (t, e, n, i) { var s; if (e = e || t.getAttribute("data-spm") || "") { var g = p(t, i); if (0 !== g.length) { var f = e.split("."), d = m.isStartWith(e, "110") && 3 == f.length; d && (s = f[2], f[2] = "w" + (s || "0"), e = f.join(".")); var h = a(); if (h && h.match(/^[\w\-\*]+(\.[\w\-\*\/]+)?$/)) if (m.isContain(e, ".")) { if (!m.isStartWith(e, h)) { var _ = h.split("."); f = e.split("."); for (var b = 0; b < _.length; b++)f[b] = _[b]; e = f.join(".") } } else m.isContain(h, ".") || (h += ".0"), e = h + "." + e; if (e.match && e.match(/^[\w\-\*]+\.[\w\-\*\/]+\.[\w\-\*\/]+$/)) { for (var w = "data-auto-spmd-max-idx", x = "data-spm-max-idx", T = i ? w : x, j = parseInt(v.tryToGetAttribute(t, T)) || 0, A = 0; A < g.length; A++) { var E = g[A], k = y.tryToGetHref(E), M = v.tryToGetAttribute(E, P); if (i || k || M) { d && E.setAttribute("data-spm-wangpu-module-id", s); var I = E.getAttribute(S); if (I && r(I)) u(E, I, n); else { var C, U, N = o(E.parentNode); N.a_spm_ab ? (U = N.a_spm_ab, C = N.ab_idx) : (U = void 0, j++ , C = j); var V, G = c(E) || {}, L = G.locaid || ""; L ? V = L : (V = l(E) || C, i && (V = "at" + ((m.isNumber(V) ? 1e3 : "") + V))), I = U ? e + "-" + U + "." + V : e + "." + V, u(E, I, n) } } } t.setAttribute(T, j) } } } }, e.spm_dealNoneSPMLink = function (t, e) { var n = goldlog.getMetaInfo("aplus-getspmcd"), o = a(), r = y.tryToGetHref(t), i = d(r), c = null, p = o && 2 == o.split(".").length; if (p) { var g; return "function" == typeof n && (g = n(t, null, o)), c = g && "0" !== g.spm_c ? [o, g.spm_c, g.spm_d] : [o, 0, l(t) || 0], void u(t, c.join("."), e) } r && i && (r = r.replace(/&?\bspm=[^&#]*/g, "").replace(/&{2,}/g, "&").replace(/\?&/, "?").replace(/\?$/, "").replace(/\?#/, "#"), s(t, r)) } }, function (t, e, n) { "use strict"; var o = n(18); e.tryToGetHref = function (t) { var e; try { e = o.trim(t.getAttribute("href", 2)) } catch (t) { } return e || "" } }, function (t, e, n) { "use strict"; function o(t) { return !!t && !!t.match(/^[^\?]*\balipay\.(?:com|net)\b/i) } function a(t) { return !!t && !!t.match(/^[^\?]*\balipay\.(?:com|net)\/.*\?.*\bsign=.*/i) } function r(t) { var e = location.href; return t && e.split("#")[0] === t.split("#")[0] } function i(t) { for (var e; (t = t.parentNode) && "BODY" !== t.tagName;)if (e = u.tryToGetAttribute(t, f)) return e; return "" } function s(t) { for (var e = ["mclick.simba.taobao.com", "click.simba.taobao.com", "click.tanx.com", "click.mz.simba.taobao.com", "click.tz.simba.taobao.com", "redirect.simba.taobao.com", "rdstat.tanx.com", "stat.simba.taobao.com", "s.click.taobao.com"], n = 0; n < e.length; n++)if (t.indexOf(e[n]) !== -1) return !0; return !1 } var u = n(26), c = n(8), l = n(99), p = n(24), g = n(20), f = "data-spm-protocol"; e.is_ignore_spm = function (t) { var e = p.getGoldlogVal("_$") || {}, n = e.meta_info || {}, d = l.tryToGetHref(t), h = i(t), m = u.tryToGetAttribute(t, f), _ = "i" === (m || h || n.spm_protocol); if (!d || s(d)) return !0; var v = r(d) || g.isStartWithProtocol(d.toLowerCase()), b = o(d) || a(d), y = v || b; return !(_ || !c.isStartWith(d, "#") && !y) || _ } }, function (t, e, n) { "use strict"; function o(t, e, n) { var o = u.parseSemicolonContent(e, {}, !0), a = o.gostr || "", r = o.locaid || "", g = t.getAttribute("data-spm") || r, f = "CLK", d = o.gokey || "", h = p.spm_getSPMParam(t), m = [h.a, h.b, h.c, g].join("."), _ = a + "." + m; 0 !== _.indexOf("/") && (_ = "/" + _); var v = [], b = ["gostr", "locaid", "gmkey", "gokey", "spm-cnt", "cna"]; for (var y in o) o.hasOwnProperty(y) && c.indexof(b, y) === -1 && v.push(y + "=" + o[y]); v.push("_g_et=" + n), v.push("autosend=1"), d && v.length > 0 && (d += "&"), d += v.length > 0 ? v.join("&") : "", goldlog && s.isFunction(goldlog.recordUdata) ? goldlog.recordUdata(_, f, d, "GET", function () { }) : l.logger({ msg: "goldlog.recordUdata is not function!" }), i.tryToSetAttribute(t, "data-spm-anchor-id", m) } function a(t, e) { var n = e; window.g_SPM && (g_SPM._current_spm = p.spm_getSPMParam(e)); for (var a; e && "HTML" !== e.tagName;) { a = i.tryToGetAttribute(e, "data-spm-click"); { if (a) { o(e, a, "mousedown" === t.type ? t.type : "tap"); break } e = e.parentNode } } if (!a) { var r = g.getGlobalSPMId(), s = goldlog.getMetaInfo("aplus-getspmcd"); "function" == typeof s && s(n, t, r) } } var r = n(73), i = n(26), s = n(8), u = n(17), c = n(23), l = n(22), p = n(97), g = n(98); e.run = function (t) { t && t.isTouchEnabled ? r.on(document, "tap", a) : r.on(document, "mousedown", a) } }, function (t, e, n) { "use strict"; function o() { for (var t = document.getElementsByTagName("iframe"), e = 0; e < t.length; e++) { var n = t[e], o = r.tryToGetAttribute(n, "data-spm-src"); if (!n.src && o) { var a = s.spm_getSPMParam(n); if (a) { var u = [a.a, a.b, a.c, a.d]; a.e && u.push(a.e), a = u.join("."), n.src = i.spm_updateHrefWithSPMId(o, a) } else n.src = o } } } function a() { function t() { e++ , e > 10 && (n = 3e3), o(), setTimeout(t, n) } var e = 0, n = 500; t() } var r = n(26), i = n(98), s = n(97); e.run = function (t) { t && !t.isTerminal && a() } }, function (t, e, n) { "use strict"; function o(t, e) { for (var n, o = window; e && (n = e.tagName);) { if ("A" === n || "AREA" === n) { r.spm_spmAnchorChk(e, !1); var a = o.g_SPM || (o.g_SPM = {}), i = a._current_spm = r.spm_getSPMParam(e), s = []; try { s = [i.a, i.b, i.c, i.d]; var u = i.e || goldlog.pvid || ""; u && s.push(u) } catch (t) { } break } if ("BODY" == n || "HTML" == n) break; e = e.parentNode } } var a = n(73), r = n(97); e.run = function (t) { var e = document; t && t.isTouchEnabled ? a.on(e, "tapSpm", o) : (a.on(e, "mousedown", o), a.on(e, "keydown", o)) } }, function (t, e, n) { "use strict"; function o(t, e) { if (e || (e = p), p.evaluate) return e.evaluate(t, p, null, 9, null).singleNodeValue; for (var n, a = t.split("/"); !n && a.length > 0;)n = a.shift(); var r, i = /^.+?\[@id='(.+?)']$/i, s = /^(.+?)\[(\d+)]$/i; return (r = n.match(i)) ? e = e.getElementById(r[1]) : (r = n.match(s)) && (e = e.getElementsByTagName(r[1])[parseInt(r[2]) - 1]), e ? 0 === a.length ? e : o(a.join("/"), e) : null } function a() { var t = {}; for (var e in l) if (l.hasOwnProperty(e)) { var n = o(e); if (n) { t[e] = 1; var a = l[e], r = "A" === n.tagName ? a.spmd : a.spmc; s.tryToSetAttribute(n, "data-spm", r || "") } } for (var i in t) t.hasOwnProperty(i) && delete l[i] } function r() { if (!c && g.spmData) { c = !0; var t = g.spmData.data; if (t && i.isArray(t)) { for (var e = 0; e < t.length; e++) { var n = t[e], o = n.xpath; o = o.replace(/^id\('(.+?)'\)(.*)/g, "//*[@id='$1']$2"), l[o] = { spmc: n.spmc, spmd: n.spmd } } a() } } } var i = n(8), s = n(26), u = n(73), c = !1, l = {}, p = document, g = window; e.wh_updateXPathElements = a, e.init_wh = r, e.run = function () { u.DOMReady(function () { r() }) } }, function (t, e, n) { "use strict"; var o = n(53), a = n(36), r = n(41), i = n(3), s = n(25), u = s.getInfo(), c = "complete"; e.initGoldlog = function (t) { var e = window.goldlog || (window.goldlog = {}), n = i.goldlog_path.run.create(); for (var s in n) e[s] = n[s]; var l = /TB\-PD/i.test(navigator.userAgent), p = e._$ = e._$ || {}; return p.meta_info = u, p.is_terminal = "aplus_wap" === i.script_name || l || "1" == u["aplus-terminal"], p.send_pv_count = 0, p.status = c, p.script_name = i.script_name, p.spm = { data: {} }, e.lver = i.lver, e.nameStorage = o.nameStorage, r.haveNativeFlagInUA(), a.doPubMsg(["goldlogReady", c]), a.doCachePubs(["goldlogReady", c]), t.init(), e } }]);/*! 2018-12-27 10:36:39 v8.8.0 */
     !function (t) { function e(n) { if (r[n]) return r[n].exports; var a = r[n] = { exports: {}, id: n, loaded: !1 }; return t[n].call(a.exports, a, a.exports, e), a.loaded = !0, a.exports } var r = {}; return e.m = t, e.c = r, e.p = "", e(0) }([function (t, e) { "use strict"; !function () { function t(t, e, r) { t[_]((h ? "on" : "") + e, function (t) { t = t || s.event; var e = t.target || t.srcElement; r(t, e) }, !1) } function e() { return /&?\bspm=[^&#]*/.test(location.href) ? location.href.match(/&?\bspm=[^&#]*/gi)[0].split("=")[1] : "" } function r(t, e) { if (t && /&?\bspm=[^&#]*/.test(t) && (t = t.replace(/&?\bspm=[^&#]*/g, "").replace(/&{2,}/g, "&").replace(/\?&/, "?").replace(/\?$/, "")), !e) return t; var r, n, a, i, o, c, p, s = "&"; if (t.indexOf("#") != -1 && (a = t.split("#"), t = a.shift(), n = a.join("#")), i = t.split("?"), o = i.length - 1, a = i[0].split("//"), a = a[a.length - 1].split("/"), c = a.length > 1 ? a.pop() : "", o > 0 && (r = i.pop(), t = i.join("?")), r && o > 1 && r.indexOf("&") == -1 && r.indexOf("%") != -1 && (s = "%26"), t = t + "?spm=" + e + (r ? s + r : "") + (n ? "#" + n : ""), p = c.indexOf(".") > -1 ? c.split(".").pop().toLowerCase() : "") { if ({ png: 1, jpg: 1, jpeg: 1, gif: 1, bmp: 1, swf: 1 }.hasOwnProperty(p)) return 0; !r && o <= 1 && (n || { htm: 1, html: 1, php: 1 }.hasOwnProperty(p) || (t += "&file=" + c)) } return t } function n(t) { function e(t) { return t = t.replace(/refpos[=(%3D)]\w*/gi, c).replace(i, "%3D" + n + "%26" + a.replace("=", "%3D")).replace(o, n), a.length > 0 && (t += "&" + a), t } var r = window.location.href, n = r.match(/mm_\d{0,24}_\d{0,24}_\d{0,24}/i), a = r.match(/[&\?](pvid=[^&]*)/i), i = new RegExp("%3Dmm_\\d+_\\d+_\\d+", "ig"), o = new RegExp("mm_\\d+_\\d+_\\d+", "ig"); a = a && a[1] ? a[1] : ""; var c = r.match(/(refpos=(\d{0,24}_\d{0,24}_\d{0,24})?(,[a-z]+)?)(,[a-z]+)?/i); return c = c && c[0] ? c[0] : "", n ? (n = n[0], e(t)) : t } function a(e) { var r = s.KISSY; r ? r.ready(e) : s.jQuery ? jQuery(m).ready(e) : "complete" === m.readyState ? e() : t(s, "load", e) } function i(t, e) { return t && t.getAttribute ? t.getAttribute(e) || "" : "" } function o(t) { if (t) { var e, r = g.length; for (e = 0; e < r; e++)if (t.indexOf(g[e]) > -1) return !0; return !1 } } function c(t, e) { if (t && /&?\bspm=[^&#]*/.test(t) && (t = t.replace(/&?\bspm=[^&#]*/g, "").replace(/&{2,}/g, "&").replace(/\?&/, "?").replace(/\?$/, "")), !e) return t; var r, n, a, i, o, c, p, s = "&"; if (t.indexOf("#") != -1 && (a = t.split("#"), t = a.shift(), n = a.join("#")), i = t.split("?"), o = i.length - 1, a = i[0].split("//"), a = a[a.length - 1].split("/"), c = a.length > 1 ? a.pop() : "", o > 0 && (r = i.pop(), t = i.join("?")), r && o > 1 && r.indexOf("&") == -1 && r.indexOf("%") != -1 && (s = "%26"), t = t + "?spm=" + e + (r ? s + r : "") + (n ? "#" + n : ""), p = c.indexOf(".") > -1 ? c.split(".").pop().toLowerCase() : "") { if ({ png: 1, jpg: 1, jpeg: 1, gif: 1, bmp: 1, swf: 1 }.hasOwnProperty(p)) return 0; !r && o <= 1 && (n || { htm: 1, html: 1, shtml: 1, php: 1 }.hasOwnProperty(p) || (t += "&__file=" + c)) } return t } function p(t) { if (o(t.href)) { var r = i(t, u); if (!r) { var n = l()(t), a = [n.a, n.b, n.c, n.d].join("."); n.e && (n += "." + n.e), d && (a = [n.a || "0", n.b || "0", n.c || "0", n.d || "0"].join("."), a = (e() || "0.0.0.0.0") + "_" + a), t.href = c(t.href, a), t.setAttribute(u, a) } } } var s = window, m = document; if (1 !== s.aplus_spmact) { s.aplus_spmact = 1; var f = function () { return { a: 0, b: 0, c: 0, d: 0, e: 0 } }, l = function () { return s.g_SPM && s.g_SPM.getParam ? s.g_SPM.getParam : f }, d = !0; try { d = self.location != top.location } catch (t) { } var u = "data-spm-act-id", g = ["mclick.simba.taobao.com", "click.simba.taobao.com", "click.tanx.com", "click.mz.simba.taobao.com", "click.tz.simba.taobao.com", "redirect.simba.taobao.com", "rdstat.tanx.com", "stat.simba.taobao.com", "s.click.taobao.com"], h = !!m.attachEvent, b = "attachEvent", v = "addEventListener", _ = h ? b : v; t(m, "mousedown", function (t, e) { for (var r, n = 0; e && (r = e.tagName) && n < 5;) { if ("A" == r || "AREA" == r) { p(e); break } if ("BODY" == r || "HTML" == r) break; e = e.parentNode, n++ } }), a(function () { for (var t, a, o = document.getElementsByTagName("iframe"), c = 0; c < o.length; c++) { t = i(o[c], "mmsrc"), a = i(o[c], "mmworked"); var p = l()(o[c]), s = [p.a || "0", p.b || "0", p.c || "0", p.d || "0", p.e || "0"].join("."); t && !a ? (d && (s = [p.a || "0", p.b || "0", p.c || "0", p.d || "0"].join("."), s = e() + "_" + s), o[c].src = r(n(t), s), o[c].setAttribute("mmworked", "mmworked")) : o[c].setAttribute(u, s) } }) } }() }]);</script>
-  <script charset="utf-8" src="./files/index-min.js(5).下载" async=""></script>
-  <script charset="utf-8" src="./files/saved_resource(2)" async=""></script>
+  <script charset="utf-8" src="./files/index-min5.js" async=""></script>
+  <script charset="utf-8" src="./files/saved_resource(2).js" async=""></script>
   <meta name="data-spm" content="a2320">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <script>
@@ -47,20 +49,21 @@
   <style>html{font-size:140.4px!important;}</style>
   <link rel="shortcut icon" href="./files/icon.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="./files/cube-https-min.css">
-  <link rel="stylesheet" type="text/css" href="./files/saved_resource(3)">
+  <link rel="stylesheet" type="text/css" href="./files/saved_resource(3).js">
   <link rel="stylesheet" type="text/css" href="./files/grid.css">
-  <link rel="stylesheet" type="text/css" href="./files/mm.css">
-  <script src="./files/include.js.下载"></script>
-  <script type="text/javascript" src="./files/seed-min.js.下载" data-config="{combine:true}"></script>
-  <script type="text/javascript" src="./files/brix-min.js.下载" bx-config="{autoPagelet:true,tag:20170512,componentsPath:&#39;//g.alicdn.com/mm/mm-brand/0.2.10/app/&#39;,debug:false}"></script>
+ 
+  <script src="./files/include.js"></script>
+  <script type="text/javascript" src="./files/seed-min.js" data-config="{combine:true}"></script>
+  <script type="text/javascript" src="./files/brix-min.js" bx-config="{autoPagelet:true,tag:20170512,componentsPath:&#39;//g.alicdn.com/mm/mm-brand/0.2.10/app/&#39;,debug:false}"></script>
   <!--[if lte IE 8]>
     <script type="text/javascript" src="//g.alicdn.com/mm/mm-brand/0.2.2/app/components/gallery/ieupdate/index-min.js"></script>
   <![endif]-->
-  <script src="./files/index.js(2).下载" id="aplus-sufei"></script>
-  <script src="./files/ns_a_51_2_fa.js.下载"></script>
+  <script src="./files/index2.js" id="aplus-sufei"></script>
+  <script src="./files/ns_a_51_2_fa.js"></script>
 </head>
+
 <body data-spm="7388781">
-  <script id="tb-beacon-aplus" src="./files/aplus_v2.js.下载"></script>
+  <script id="tb-beacon-aplus" src="./files/aplus_v2.js"></script>
   <script>
     with (document) with (body) with (insertBefore(createElement("script"), firstChild)) setAttribute("exparams", "category=&userid=&aplus&yunid=&&trid=0bb625a515474640732296969ed3f4&asid=AQAAAACJbTxcaqusWAAAAADDC+0gfbSy3g==", id = "tb-beacon-aplus", src = (location > "https" ? "//g" : "//g") + ".alicdn.com/alilog/mlog/aplus_v2.js")
   </script>
@@ -356,14 +359,14 @@
     bx-behavior="true">
     <div class="w1140 clearfix">
       <!-- Logo -->
-      <a href="http://cappuccinocreative.com/index.html" class="logo" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b0">
+      <a href="http://cappuccinocreative.com/zhangxs.html" class="logo" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b0">
         <img class="logo-text" src="./files/logo.png" alt="阿里妈妈">
       </a>
       <ul class="ceiling-nav">
-        <li class="active"><a href="https://www.alimama.com/" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b1">Home</a></li>
-        <li><a href="https://www.alimama.com/advantage.htm" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b2">Product</a></li>
+        <li class="active"><a href="https://lktlovelby.github.io/zhangxs.html" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b1">Home</a></li>
+        <li><a href="https://lktlovelby.github.io/zhangxs.html#home-slider" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b2">Product</a></li>
         <li class="product">
-          <a href="javascript:void(0)" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b3">Game</a>
+          <a href="javascript:void(0)" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87b3">Partners</a>
           <div class="products-menu clearfix">
             <dl class="fl big-cate product">
               <dt class="big-cate-name">
@@ -421,7 +424,7 @@
         </li>
         <li><a href="https://www.alimama.com/case.htm" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bb">Feature</a></li>
         <li class="learn">
-          <a href="https://www.alimama.com/learn.htm" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bc">Partners</a>
+          <a href="https://www.alimama.com/learn.htm" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bc">Game</a>
           <div class="learn-menu">
             <a href="https://shuyuan.taobao.com/" class="learn-cate" target="_blank" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bd">万堂书院</a>
             <a href="https://help.alimama.com/" class="learn-cate" target="_blank" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87be">客服中心</a>
@@ -432,8 +435,8 @@
         <li><a href="https://www.alimama.com/about.htm" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bg">Contact
             us</a></li>
       </ul>
-      <div class="login fr" data-spm-click="gostr=/alimama.alimama_offcial;locaid=d9bda87bh">
-        <div data-spm="a214tr8" class="alimama-site-nav alimama-clearfix">
+      <div class="login fr">
+        <div class="alimama-site-nav alimama-clearfix">
           <div class="menu-trigger">
             <span class="login-menu-trigger">
               <i class="open nologin">登录</i>
@@ -1511,7 +1514,7 @@
             }
           }
         </style>
-        <script src="./files/login2017-min.js.下载"></script>
+        <script src="./files/login2017-min.js"></script>
       </div>
     </div>
   </div>
@@ -1553,7 +1556,10 @@
             <div class="info layer-2 sublayer" data-limit-y="90" data-limit-x="90" alt="sublayer" rel="alpha:true,
       slideindirection:bottom,offsetin:200,durationin:600,easingin:backOut,delayin:800,
       slideoutdirection:bottom,offsetout:100,durationout:400,easingout:backIn,delayout:100">
-              <p style="text-align:left;" >Cappuccino Media is mobile apps mediabuy team with global iOS and Android inventory. Members of Cappuccino team all have years of experience in the fast-developing mobile advertising industry to give you the very best traffic so you can get the best sales ROI to your campaigns. We deliver WW traffic on mainly CPI/CPA/CPL/CPS promotion models basis.</p>
+              <p style="text-align:left;">Cappuccino Media is mobile apps mediabuy team with global iOS and Android
+                inventory. Members of Cappuccino team all have years of experience in the fast-developing mobile
+                advertising industry to give you the very best traffic so you can get the best sales ROI to your
+                campaigns. We deliver WW traffic on mainly CPI/CPA/CPL/CPS promotion models basis.</p>
             </div>
 
             <div class="slide-bg layer layer-3 sublayer" style="background-image: url(&quot;//img.alicdn.com/tfs/TB1Yhe0SFXXXXa4apXXXXXXXXXX-901-634.png&quot;); position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-2.96141px, -1.88897px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"
@@ -1706,9 +1712,9 @@
   <div class="index-advantagies-wrap index-section">
     <div class="index-advantagies">
       <div class="title">
-        <p>我们的优势</p>
+        <p>Feature</p>
       </div>
-      <!-- 我们的优势轮播 -->
+      <!-- Feature优势轮播 -->
 
       <div class="advantagies-box" bx-name="index_advantagies" bx-path="components/mm/index_advantagies/" data-spm="1098e3423"
         id="brix_brick_35" bx-behavior="true">
@@ -2098,522 +2104,524 @@
       <a href="https://www.alimama.com/case.htm" class="more">查看更多案例 &nbsp;&gt;</a>
     </div>
   </div>
-  <div class="new-footer" data-spm="ca214tr9">
-    <div class="index-nav-map-wrap">
-      <div class="index-nav-map w1140 clearfix">
-        <div class="logo">
-          <img src="./files/TB1eOToiwDqK1RjSZSyXXaxEVXa-214-262.png" alt="阿里妈妈 Logo">
+  <section id="home-slider">
+    <div class="new-footer" data-spm="ca214tr9">
+      <div class="index-nav-map-wrap">
+        <div class="index-nav-map w1140 clearfix">
+          <div class="logo">
+            <img src="./files/TB1eOToiwDqK1RjSZSyXXaxEVXa-214-262.png" alt="阿里妈妈 Logo">
+          </div>
+          <div class="map">
+            <dl>
+              <dt>营销平台</dt>
+              <dd>
+                <a href="https://unidesk.taobao.com/login.html" target="_blank">Uni Desk</a>
+              </dd>
+              <dd>
+                <a href="http://zhitongche.taobao.com/" target="_blank">淘宝直通车</a>
+              </dd>
+              <dd>
+                <a href="https://zuanshi.taobao.com/" target="_blank">智钻</a>
+              </dd>
+              <dd>
+                <a href="https://ad.alimama.com/" target="_blank">淘宝客</a>
+              </dd>
+              <dd>
+                <a href="https://branding.taobao.com/" target="_blank">品销宝</a>
+              </dd>
+              <dd>
+                <a href="https://dmp.taobao.com/" target="_blank">达摩盘</a>
+              </dd>
+            </dl>
+            <dl>
+              <dt>媒体合作</dt>
+              <dd>
+                <a href="https://pub.alimama.com/" target="_blank">淘宝联盟</a>
+              </dd>
+            </dl>
+            <dl>
+              <dt>partners</dt>
+              <dd>
+                <a href="https://shuyuan.taobao.com/" target="_blank">万堂书院</a>
+              </dd>
+              <dd>
+                <a href="https://help.alimama.com/" target="_blank">客服中心</a>
+              </dd>
+              <dd>
+                <a href="http://rule.alimama.com/" target="_blank">规则中心</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="qrcode">
+            <img src="./files/TB1VLlhiMHqK1RjSZFgXXa7JXXa-300-300.jpg" alt="二维码">
+            <p>打开淘宝扫一扫</p>
+            <p>下载阿里妈妈APP</p>
+          </div>
         </div>
-        <div class="map">
-          <dl>
-            <dt>营销平台</dt>
-            <dd>
-              <a href="https://unidesk.taobao.com/login.html" target="_blank">Uni Desk</a>
-            </dd>
-            <dd>
-              <a href="http://zhitongche.taobao.com/" target="_blank">淘宝直通车</a>
-            </dd>
-            <dd>
-              <a href="https://zuanshi.taobao.com/" target="_blank">智钻</a>
-            </dd>
-            <dd>
-              <a href="https://ad.alimama.com/" target="_blank">淘宝客</a>
-            </dd>
-            <dd>
-              <a href="https://branding.taobao.com/" target="_blank">品销宝</a>
-            </dd>
-            <dd>
-              <a href="https://dmp.taobao.com/" target="_blank">达摩盘</a>
-            </dd>
-          </dl>
-          <dl>
-            <dt>媒体合作</dt>
-            <dd>
-              <a href="https://pub.alimama.com/" target="_blank">淘宝联盟</a>
-            </dd>
-          </dl>
-          <dl>
-            <dt>partners</dt>
-            <dd>
-              <a href="https://shuyuan.taobao.com/" target="_blank">万堂书院</a>
-            </dd>
-            <dd>
-              <a href="https://help.alimama.com/" target="_blank">客服中心</a>
-            </dd>
-            <dd>
-              <a href="http://rule.alimama.com/" target="_blank">规则中心</a>
-            </dd>
-          </dl>
-        </div>
-        <div class="qrcode">
-          <img src="./files/TB1VLlhiMHqK1RjSZFgXXa7JXXa-300-300.jpg" alt="二维码">
-          <p>打开淘宝扫一扫</p>
-          <p>下载阿里妈妈APP</p>
-        </div>
-      </div>
 
-      <div class="w1140">
-        <div id="alimama-footer" data-spm="a214tr9">
-          <div class="alimama-info">
-            <div class="link">
-              <a target="_black" href="https://help.alimama.com/">联系客服</a>
-              <b>|</b>
-              <a target="_black" href="https://open.taobao.com/">开放平台</a>
-              <b>|</b>
-              <a target="_black" href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_ali_mama_division/suit_bu1_ali_mama_division201709111812_13128.html">法律声明</a>
-              <b>|</b>
-              <a target="_black" href="https://jubao.alibaba.com/index.html?site=ALIMAMA">廉正举报</a>
+        <div class="w1140">
+          <div id="alimama-footer" data-spm="a214tr9">
+            <div class="alimama-info">
+              <div class="link">
+                <a target="_black" href="https://help.alimama.com/">联系客服</a>
+                <b>|</b>
+                <a target="_black" href="https://open.taobao.com/">开放平台</a>
+                <b>|</b>
+                <a target="_black" href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_ali_mama_division/suit_bu1_ali_mama_division201709111812_13128.html">法律声明</a>
+                <b>|</b>
+                <a target="_black" href="https://jubao.alibaba.com/index.html?site=ALIMAMA">廉正举报</a>
+              </div>
+              <div class="copyright">
+                <span>阿里妈妈版权所有 2007-现在</span>
+                <b>|</b>
+                <a target="_black" href="http://www.miibeian.gov.cn/">ICP证：浙B2-20070195</a>
+              </div>
             </div>
-            <div class="copyright">
-              <span>阿里妈妈版权所有 2007-现在</span>
+
+            <div class="aligroup-info">
+              <a target="_black" href="http://www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
               <b>|</b>
-              <a target="_black" href="http://www.miibeian.gov.cn/">ICP证：浙B2-20070195</a>
+              <a target="_black" href="https://www.taobao.com/">淘宝网</a>
+              <b>|</b>
+              <a target="_black" href="https://www.tmall.com/">天猫</a>
+              <b>|</b>
+              <a target="_black" href="https://ju.taobao.com/">聚划算</a>
+              <b>|</b>
+              <a target="_black" href="https://www.aliexpress.com/">全球速卖通</a>
+              <b>|</b>
+              <a target="_black" href="https://www.alibaba.com/">阿里巴巴国际交易市场</a>
+              <b>|</b>
+              <a target="_black" href="https://www.1688.com/">1688</a>
+              <b>|</b>
+              <a target="_black" href="https://www.alimama.com/">阿里妈妈</a>
+              <b>|</b>
+              <a target="_black" href="https://www.fliggy.com/">飞猪</a>
+              <b>|</b>
+              <a target="_black" href="https://www.aliyun.com/">阿里云计算</a>
+              <b>|</b>
+              <a target="_black" href="http://www.alios.cn/">AliOS</a>
+              <b>|</b>
+              <a target="_black" href="https://aliqin.tmall.com/">阿里通信</a>
+              <b>|</b>
+              <a target="_black" href="http://www.autonavi.com/">高德</a>
+              <b>|</b>
+              <a target="_black" href="http://www.uc.cn/">UC</a>
+              <br>
+              <a target="_black" href="https://www.umeng.com/">友盟</a>
+              <b>|</b>
+              <a target="_black" href="https://www.xiami.com/">虾米</a>
+              <b>|</b>
+              <a target="_black" href="https://www.dingtalk.com/?lwfrom=20150130163937547">钉钉</a>
+              <b>|</b>
+              <a target="_black" href="https://www.alipay.com/">支付宝</a>
+              <b>|</b>
+              <a target="_black" href="https://damo.alibaba.com/">达摩院</a>
+            </div>
+
+            <div class="ualificate-info">
+              <a target="_black" href="http://www.pingpinganan.gov.cn/">
+                <img align="absmiddle" src="./files/T1C3z7FudfXXcsE9Te-40-42.png" alt="网监局">
+              </a>
+              <a target="_black" href="http://122.224.75.236/wzba/login.do?method=hdurl&amp;doamin=http://www.alimama.com.cn&amp;id=330108000003117&amp;SHID=1223.0AFF_NAME=com.rouger.gs.main.UserInfoAff&amp;AFF_ACTION=qyhzdetail&amp;PAGE_URL=ShowDetail">
+                <img align="absmiddle" src="./files/T1KRgkFxdXXXaqJHTe-35-42.png">
+              </a>
+              <a target="_black" href="http://www.pingpinganan.gov.cn/">
+                <img align="absmiddle" alt="网监局" src="./files/T1VVv9FABeXXbtCInf-38-42.png">
+              </a>
             </div>
           </div>
 
-          <div class="aligroup-info">
-            <a target="_black" href="http://www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
-            <b>|</b>
-            <a target="_black" href="https://www.taobao.com/">淘宝网</a>
-            <b>|</b>
-            <a target="_black" href="https://www.tmall.com/">天猫</a>
-            <b>|</b>
-            <a target="_black" href="https://ju.taobao.com/">聚划算</a>
-            <b>|</b>
-            <a target="_black" href="https://www.aliexpress.com/">全球速卖通</a>
-            <b>|</b>
-            <a target="_black" href="https://www.alibaba.com/">阿里巴巴国际交易市场</a>
-            <b>|</b>
-            <a target="_black" href="https://www.1688.com/">1688</a>
-            <b>|</b>
-            <a target="_black" href="https://www.alimama.com/">阿里妈妈</a>
-            <b>|</b>
-            <a target="_black" href="https://www.fliggy.com/">飞猪</a>
-            <b>|</b>
-            <a target="_black" href="https://www.aliyun.com/">阿里云计算</a>
-            <b>|</b>
-            <a target="_black" href="http://www.alios.cn/">AliOS</a>
-            <b>|</b>
-            <a target="_black" href="https://aliqin.tmall.com/">阿里通信</a>
-            <b>|</b>
-            <a target="_black" href="http://www.autonavi.com/">高德</a>
-            <b>|</b>
-            <a target="_black" href="http://www.uc.cn/">UC</a>
-            <br>
-            <a target="_black" href="https://www.umeng.com/">友盟</a>
-            <b>|</b>
-            <a target="_black" href="https://www.xiami.com/">虾米</a>
-            <b>|</b>
-            <a target="_black" href="https://www.dingtalk.com/?lwfrom=20150130163937547">钉钉</a>
-            <b>|</b>
-            <a target="_black" href="https://www.alipay.com/">支付宝</a>
-            <b>|</b>
-            <a target="_black" href="https://damo.alibaba.com/">达摩院</a>
-          </div>
-
-          <div class="ualificate-info">
-            <a target="_black" href="http://www.pingpinganan.gov.cn/">
-              <img align="absmiddle" src="./files/T1C3z7FudfXXcsE9Te-40-42.png" alt="网监局">
-            </a>
-            <a target="_black" href="http://122.224.75.236/wzba/login.do?method=hdurl&amp;doamin=http://www.alimama.com.cn&amp;id=330108000003117&amp;SHID=1223.0AFF_NAME=com.rouger.gs.main.UserInfoAff&amp;AFF_ACTION=qyhzdetail&amp;PAGE_URL=ShowDetail">
-              <img align="absmiddle" src="./files/T1KRgkFxdXXXaqJHTe-35-42.png">
-            </a>
-            <a target="_black" href="http://www.pingpinganan.gov.cn/">
-              <img align="absmiddle" alt="网监局" src="./files/T1VVv9FABeXXbtCInf-38-42.png">
-            </a>
-          </div>
-        </div>
-
-        <style type="text/css">
-          #alimama-footer {
-            padding: 30px 10px;
-            text-align: left;
-            font-size: 12px;
-            line-height: 2.4;
-            font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \\5FAE\\8F6F\\96C5\\9ED1, \\5B8B\\4F53, sans-serif;
-          }
-
-          #alimama-footer a,
-          #alimama-footer span {
-            color: #333;
-            filter: alpha(opacity=50);
-            filter: none\9;
-            opacity: 0.5;
-          }
-
-          #alimama-footer a:hover {
-            filter: alpha(opacity=100);
-            filter: none\9;
-            opacity: 1;
-          }
-
-          #alimama-footer .alimama-info .link,
-          #alimama-footer .alimama-info .copyright {
-            display: inline-block;
-          }
-
-          #alimama-footer .alimama-info a,
-          #alimama-footer .alimama-info span {
-            margin-right: 20px;
-          }
-
-          #alimama-footer .alimama-info b {
-            display: none;
-            font-weight: 400;
-            color: #DDD;
-          }
-
-          #alimama-footer .aligroup-info b {
-            margin: 0 8px;
-            font-weight: 400;
-            color: #DDD;
-          }
-
-          .ualificate-info {
-            margin-top: 8px;
-          }
-
-          .ualificate-info a {
-            margin-right: 20px;
-          }
-
-          .ualificate-info a img {
-            border: none;
-            -webkit-filter: grayscale(100%);
-            -moz-filter: grayscale(100%);
-            -ms-filter: grayscale(100%);
-            -o-filter: grayscale(100%);
-            filter: grayscale(100%);
-            filter: gray;
-          }
-
-          .ualificate-info a:hover img {
-            -webkit-filter: grayscale(0%);
-            -moz-filter: grayscale(0%);
-            -ms-filter: grayscale(0%);
-            -o-filter: grayscale(0%);
-            filter: grayscale(0%);
-            filter: none;
-          }
-
-          @media screen and (max-width:767px) {
+          <style type="text/css">
             #alimama-footer {
-              padding: 30px 12px;
-              line-height: 2;
+              padding: 30px 10px;
+              text-align: left;
+              font-size: 12px;
+              line-height: 2.4;
+              font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \\5FAE\\8F6F\\96C5\\9ED1, \\5B8B\\4F53, sans-serif;
             }
 
-            .aligroup-info {
-              display: none;
+            #alimama-footer a,
+            #alimama-footer span {
+              color: #333;
+              filter: alpha(opacity=50);
+              filter: none\9;
+              opacity: 0.5;
             }
 
-            .ualificate-info {
-              display: none;
+            #alimama-footer a:hover {
+              filter: alpha(opacity=100);
+              filter: none\9;
+              opacity: 1;
             }
 
-            #alimama-footer .alimama-info .link {
-              display: -webkit-flex;
-              display: flex;
-              -webkit-justify-content: space-between;
-              justify-content: space-between;
-            }
-
+            #alimama-footer .alimama-info .link,
             #alimama-footer .alimama-info .copyright {
-              display: block;
-            }
-
-            #alimama-footer .alimama-info .copyright a,
-            #alimama-footer .alimama-info .copyright span {
-              display: block;
-              text-align: center;
-            }
-
-            #alimama-footer .alimama-info .copyright b {
-              display: none;
+              display: inline-block;
             }
 
             #alimama-footer .alimama-info a,
             #alimama-footer .alimama-info span {
-              margin-right: 0;
+              margin-right: 20px;
             }
 
             #alimama-footer .alimama-info b {
-              display: inline-block;
+              display: none;
+              font-weight: 400;
+              color: #DDD;
             }
-          }
-        </style>
+
+            #alimama-footer .aligroup-info b {
+              margin: 0 8px;
+              font-weight: 400;
+              color: #DDD;
+            }
+
+            .ualificate-info {
+              margin-top: 8px;
+            }
+
+            .ualificate-info a {
+              margin-right: 20px;
+            }
+
+            .ualificate-info a img {
+              border: none;
+              -webkit-filter: grayscale(100%);
+              -moz-filter: grayscale(100%);
+              -ms-filter: grayscale(100%);
+              -o-filter: grayscale(100%);
+              filter: grayscale(100%);
+              filter: gray;
+            }
+
+            .ualificate-info a:hover img {
+              -webkit-filter: grayscale(0%);
+              -moz-filter: grayscale(0%);
+              -ms-filter: grayscale(0%);
+              -o-filter: grayscale(0%);
+              filter: grayscale(0%);
+              filter: none;
+            }
+
+            @media screen and (max-width:767px) {
+              #alimama-footer {
+                padding: 30px 12px;
+                line-height: 2;
+              }
+
+              .aligroup-info {
+                display: none;
+              }
+
+              .ualificate-info {
+                display: none;
+              }
+
+              #alimama-footer .alimama-info .link {
+                display: -webkit-flex;
+                display: flex;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+              }
+
+              #alimama-footer .alimama-info .copyright {
+                display: block;
+              }
+
+              #alimama-footer .alimama-info .copyright a,
+              #alimama-footer .alimama-info .copyright span {
+                display: block;
+                text-align: center;
+              }
+
+              #alimama-footer .alimama-info .copyright b {
+                display: none;
+              }
+
+              #alimama-footer .alimama-info a,
+              #alimama-footer .alimama-info span {
+                margin-right: 0;
+              }
+
+              #alimama-footer .alimama-info b {
+                display: inline-block;
+              }
+            }
+          </style>
+        </div>
+        <div class="bubble"></div>
       </div>
-      <div class="bubble"></div>
-    </div>
 
-    <style type="text/css">
-      .new-footer {
-        background: #070e23;
-      }
-
-      #alimama-footer {
-        padding: 10px;
-        text-align: left;
-        font-size: 12px;
-        line-height: 2.4;
-        font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \\5FAE\\8F6F\\96C5\\9ED1, \\5B8B\\4F53, sans-serif;
-      }
-
-      #alimama-footer a,
-      #alimama-footer span {
-        color: #fff;
-        filter: alpha(opacity=50);
-        filter: none\9;
-        opacity: 0.5;
-      }
-
-      #alimama-footer a:hover {
-        filter: alpha(opacity=100);
-        filter: none\9;
-        opacity: 1;
-      }
-
-      #alimama-footer .alimama-info .link,
-      #alimama-footer .alimama-info .copyright {
-        display: inline-block;
-      }
-
-      #alimama-footer .alimama-info a,
-      #alimama-footer .alimama-info span {
-        margin-right: 20px;
-      }
-
-      #alimama-footer .alimama-info b {
-        display: none;
-        font-weight: 400;
-        /* color: #DDD; */
-      }
-
-      #alimama-footer .aligroup-info b {
-        margin: 0 8px;
-        font-weight: 400;
-        /* color: #DDD; */
-      }
-
-      .ualificate-info {
-        margin-top: 8px;
-      }
-
-      .ualificate-info a {
-        margin-right: 20px;
-      }
-
-      .ualificate-info a img {
-        border: none;
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-        filter: grayscale(100%);
-        filter: gray;
-      }
-
-      .ualificate-info a:hover img {
-        -webkit-filter: grayscale(0%);
-        -moz-filter: grayscale(0%);
-        -ms-filter: grayscale(0%);
-        -o-filter: grayscale(0%);
-        filter: grayscale(0%);
-        filter: none;
-      }
-
-      .index-nav-map-wrap {
-        background: #070e23;
-        height: 537px;
-        overflow: hidden;
-        position: relative;
-      }
-
-      .index-nav-map-wrap .index-nav-map {
-        margin-top: 100px;
-        margin-bottom: 40px;
-        color: #fff;
-        position: relative;
-        z-index: 1;
-      }
-
-      .index-nav-map-wrap .logo {
-        width: 20%;
-        /* margin-right: 120px; */
-        float: left;
-
-      }
-
-      .index-nav-map-wrap .logo img {
-        width: 110px;
-      }
-
-      .index-nav-map-wrap .map {
-        float: left;
-        width: 60%;
-      }
-
-      .index-nav-map-wrap .map dl {
-        /* margin-right: 110px; */
-        font-size: 16px;
-        float: left;
-        width: 33%;
-        text-align: center;
-      }
-
-      .index-nav-map-wrap .map dt {
-        opacity: .5;
-        margin-bottom: 16px;
-      }
-
-      .index-nav-map-wrap .map dd {
-        line-height: 32px;
-      }
-
-      .index-nav-map-wrap .map dd a {
-        color: #fff;
-      }
-
-      .index-nav-map-wrap .map dd a:hover {
-        color: #f60;
-      }
-
-      .index-nav-map-wrap .qrcode {
-        width: 176px;
-        text-align: center;
-        float: right;
-      }
-
-      .index-nav-map-wrap .qrcode img {
-        width: 92px;
-        margin-bottom: 10px;
-      }
-
-      .index-nav-map-wrap .bubble {
-        position: absolute;
-        bottom: 2px;
-        left: 50%;
-        width: 10px;
-        height: 10px;
-        background: #1e2438;
-        color: #1e2438;
-        box-shadow: 10em 0 0 .01em, 20em 0 0 .01em, 30em 0 0 .01em, 40em 0 0 .01em, 12em 0 0 .01em, 17em 0 0 .01em, 25em 0 0 .01em, 37em 0 0 .01em, -10em 0 0 .01em, -20em 0 0 .01em, -30em 0 0 .01em, -40em 0 0 .01em, -12em 0 0 .01em, -17em 0 0 .01em, -25em 0 0 .01em, -37em 0 0 .01em, 10em -0.1em 0 .01em, 20em -0.2em 0 .01em, 30em -0.3em 0 .01em, 40em -0.1em 0 .01em, 17em -0.3em 0 .01em, 17em -0.2em 0 .01em, 25em -0.1em 0 .01em, 37em -0.2em 0 .01em, -11em -0.5em 0 .01em, -20em -0.3em 0 .01em, -30em -0.2em 0 .01em, -40em -0.1em 0 .01em, -15em -0.2em 0 .01em, -17em -0.3em 0 .01em, -25em -0.4em 0 .01em, -37em -0.2em 0 .01em, -11em 0 0 .01em, 10.6em 0 0 .01em, 12.5em 0 0 .01em, 13.6em 0 0 .01em, -5em 0 0 .01em, -6em 0 0 .01em, -7.4em 0 0 .01em, -9.2em 0 0 .01em, 5em 0 0 .01em, 6em 0 0 .01em, 7.4em 0 0 .01em, 9.2em 0 0 .01em, 1em 0 0 .01em, 2em .1em 0 .01em, 4em .2em 0 .01em, 3.2em .5em 0 .01em, -1em .5em 0 .01em, -2em .3em 0 .01em, -4em .1em 0 .01em, -3.2em .2em 0 .01em;
-        border-radius: 50%;
-      }
-
-      .index-nav-map-wrap:hover .bubble {
-        animation: 2s bubble-up infinite;
-      }
-
-      @keyframes bubble-up {
-        100% {
-          box-shadow: 10em -11em 0 .01em, 20em -17em 0 .01em, 30em -20em 0 .01em, 40em -30em 0 .01em, 12em -12em 0 .01em, 17em -5em 0 .01em, 25em -16em 0 .01em, 37em -22em 0 .01em, -10em -32em 0 .01em, -20em -12em 0 .01em, -30em -11em 0 .01em, -40em -13em 0 .01em, -12em -15em 0 .01em, -17em -9em 0 .01em, -25em -14em 0 .01em, -37em -21em 0 .01em, 10em -17em 0 .01em, 20em -21em 0 .01em, 30em -11em 0 .01em, 40em -19em 0 .01em, 17em -23em 0 .01em, 17em -10em 0 .01em, 25em -14.5em 0 .01em, 37em -12.9em 0 .01em, -11em -21.3em 0 .01em, -20em -22.4em 0 .01em, -30em -15.3em 0 .01em, -40em -19.2em 0 .01em, -15em -21.3em 0 .01em, -17em -22.4em 0 .01em, -25em -10.3em 0 .01em, -37em -9.3em 0 .01em, -11em -22.4em 0 .01em, 10.6em -20.4em 0 .01em, 12.5em -6.9em 0 .01em, 13.6em -8.3em 0 .01em, -5em -21.4em 0 .01em, -6em -13em 0 .01em, -7.4em -15em 0 .01em, -9.2em -22em 0 .01em, 5em -30em 0 .01em, 6em -24em 0 .01em, 7.4em -11em 0 .01em, 9.2em -9.4em 0 .01em, 1em -22em 0 .01em, 2em -14em 0 .01em, 4em -21em 0 .01em, 3.2em -16em 0 .01em, -1em -21em 0 .01em, -2em -19em 0 .01em, -4em -17em 0 .01em, -3.2em -15em 0 .01em;
-          bottom: 200px;
-          opacity: 0;
-        }
-      }
-
-      @media screen and (max-width:767px) {
-        .index-nav-map-wrap {
-          height: auto;
+      <style type="text/css">
+        .new-footer {
+          background: #070e23;
         }
 
-        .index-nav-map-wrap .index-nav-map {
-          padding-left: .5rem;
-          margin-top: .5rem;
-          padding-right: .5rem;
+        #alimama-footer {
+          padding: 10px;
+          text-align: left;
+          font-size: 12px;
+          line-height: 2.4;
+          font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \\5FAE\\8F6F\\96C5\\9ED1, \\5B8B\\4F53, sans-serif;
         }
 
-        .index-nav-map .logo {
-          float: none;
-          display: block;
-          width: 2rem;
-          margin: 0 auto .8rem;
+        #alimama-footer a,
+        #alimama-footer span {
+          color: #fff;
+          filter: alpha(opacity=50);
+          filter: none\9;
+          opacity: 0.5;
         }
 
-        .index-nav-map .map {
-          width: 100%;
+        #alimama-footer a:hover {
+          filter: alpha(opacity=100);
+          filter: none\9;
+          opacity: 1;
         }
 
-        .index-nav-map .map dl {
-          float: none;
-          margin-right: 0;
-          width: 100%;
-        }
-
-        .index-nav-map .map dl dd {
-          display: none;
-        }
-
-        .index-nav-map .map dl:hover dd {
-          display: block;
-        }
-
-        .index-nav-map .qrcode {
-          float: none;
-          width: 100%;
-        }
-
-        .aligroup-info {
-          display: none;
-        }
-
-        .ualificate-info {
-          display: none;
-        }
-
-        #alimama-footer .alimama-info .link {
-          display: -webkit-flex;
-          display: flex;
-          -webkit-justify-content: space-between;
-          justify-content: space-between;
-        }
-
+        #alimama-footer .alimama-info .link,
         #alimama-footer .alimama-info .copyright {
-          display: block;
-        }
-
-        #alimama-footer .alimama-info .copyright a,
-        #alimama-footer .alimama-info .copyright span {
-          display: block;
-          text-align: center;
-        }
-
-        #alimama-footer .alimama-info .copyright b {
-          display: none;
+          display: inline-block;
         }
 
         #alimama-footer .alimama-info a,
         #alimama-footer .alimama-info span {
-          margin-right: 0;
+          margin-right: 20px;
         }
 
         #alimama-footer .alimama-info b {
-          display: inline-block;
+          display: none;
+          font-weight: 400;
+          /* color: #DDD; */
         }
-      }
-    </style>
 
-    <div class="newlivetool livetool" bx-name="newlivetool" bx-path="components/gallery/newlivetool/" id="brix_brick_36"
-      bx-behavior="true">
-      <ul class="tool-list">
-        <li class="gotop" style="display: none;"><a href="https://www.alimama.com/index.htm#"><i class="mm-iconfont"></i><span
-              class="text">返回顶部</span></a></li>
-        <li class="laiwang"><a href="https://www.alimama.com/index.htm#"><i class="icon"></i><span class="text">关注微信</span></a>
-          <div class="qrcode"><img src="./files/TB1n84diMHqK1RjSZJnXXbNLpXa-625-625.jpg"></div>
-        </li>
-        <li class="weibo"><a href="http://weibo.com/taobaoimagine" target="_blank"><i class="icon"></i><span class="text">关注微博</span></a>
-          <div class="qrcode"><img src="./files/TB10uOcFFXXXXXvaFXXrywt4VXX-120-120.png"></div>
-        </li>
-        <li class="help">
-          <p class="ho"><i class="wx-bg"></i><span class="text">在线咨询</span></p>
-        </li>
-      </ul>
+        #alimama-footer .aligroup-info b {
+          margin: 0 8px;
+          font-weight: 400;
+          /* color: #DDD; */
+        }
+
+        .ualificate-info {
+          margin-top: 8px;
+        }
+
+        .ualificate-info a {
+          margin-right: 20px;
+        }
+
+        .ualificate-info a img {
+          border: none;
+          -webkit-filter: grayscale(100%);
+          -moz-filter: grayscale(100%);
+          -ms-filter: grayscale(100%);
+          -o-filter: grayscale(100%);
+          filter: grayscale(100%);
+          filter: gray;
+        }
+
+        .ualificate-info a:hover img {
+          -webkit-filter: grayscale(0%);
+          -moz-filter: grayscale(0%);
+          -ms-filter: grayscale(0%);
+          -o-filter: grayscale(0%);
+          filter: grayscale(0%);
+          filter: none;
+        }
+
+        .index-nav-map-wrap {
+          background: #070e23;
+          height: 537px;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .index-nav-map-wrap .index-nav-map {
+          margin-top: 100px;
+          margin-bottom: 40px;
+          color: #fff;
+          position: relative;
+          z-index: 1;
+        }
+
+        .index-nav-map-wrap .logo {
+          width: 20%;
+          /* margin-right: 120px; */
+          float: left;
+
+        }
+
+        .index-nav-map-wrap .logo img {
+          width: 110px;
+        }
+
+        .index-nav-map-wrap .map {
+          float: left;
+          width: 60%;
+        }
+
+        .index-nav-map-wrap .map dl {
+          /* margin-right: 110px; */
+          font-size: 16px;
+          float: left;
+          width: 33%;
+          text-align: center;
+        }
+
+        .index-nav-map-wrap .map dt {
+          opacity: .5;
+          margin-bottom: 16px;
+        }
+
+        .index-nav-map-wrap .map dd {
+          line-height: 32px;
+        }
+
+        .index-nav-map-wrap .map dd a {
+          color: #fff;
+        }
+
+        .index-nav-map-wrap .map dd a:hover {
+          color: #f60;
+        }
+
+        .index-nav-map-wrap .qrcode {
+          width: 176px;
+          text-align: center;
+          float: right;
+        }
+
+        .index-nav-map-wrap .qrcode img {
+          width: 92px;
+          margin-bottom: 10px;
+        }
+
+        .index-nav-map-wrap .bubble {
+          position: absolute;
+          bottom: 2px;
+          left: 50%;
+          width: 10px;
+          height: 10px;
+          background: #1e2438;
+          color: #1e2438;
+          box-shadow: 10em 0 0 .01em, 20em 0 0 .01em, 30em 0 0 .01em, 40em 0 0 .01em, 12em 0 0 .01em, 17em 0 0 .01em, 25em 0 0 .01em, 37em 0 0 .01em, -10em 0 0 .01em, -20em 0 0 .01em, -30em 0 0 .01em, -40em 0 0 .01em, -12em 0 0 .01em, -17em 0 0 .01em, -25em 0 0 .01em, -37em 0 0 .01em, 10em -0.1em 0 .01em, 20em -0.2em 0 .01em, 30em -0.3em 0 .01em, 40em -0.1em 0 .01em, 17em -0.3em 0 .01em, 17em -0.2em 0 .01em, 25em -0.1em 0 .01em, 37em -0.2em 0 .01em, -11em -0.5em 0 .01em, -20em -0.3em 0 .01em, -30em -0.2em 0 .01em, -40em -0.1em 0 .01em, -15em -0.2em 0 .01em, -17em -0.3em 0 .01em, -25em -0.4em 0 .01em, -37em -0.2em 0 .01em, -11em 0 0 .01em, 10.6em 0 0 .01em, 12.5em 0 0 .01em, 13.6em 0 0 .01em, -5em 0 0 .01em, -6em 0 0 .01em, -7.4em 0 0 .01em, -9.2em 0 0 .01em, 5em 0 0 .01em, 6em 0 0 .01em, 7.4em 0 0 .01em, 9.2em 0 0 .01em, 1em 0 0 .01em, 2em .1em 0 .01em, 4em .2em 0 .01em, 3.2em .5em 0 .01em, -1em .5em 0 .01em, -2em .3em 0 .01em, -4em .1em 0 .01em, -3.2em .2em 0 .01em;
+          border-radius: 50%;
+        }
+
+        .index-nav-map-wrap:hover .bubble {
+          animation: 2s bubble-up infinite;
+        }
+
+        @keyframes bubble-up {
+          100% {
+            box-shadow: 10em -11em 0 .01em, 20em -17em 0 .01em, 30em -20em 0 .01em, 40em -30em 0 .01em, 12em -12em 0 .01em, 17em -5em 0 .01em, 25em -16em 0 .01em, 37em -22em 0 .01em, -10em -32em 0 .01em, -20em -12em 0 .01em, -30em -11em 0 .01em, -40em -13em 0 .01em, -12em -15em 0 .01em, -17em -9em 0 .01em, -25em -14em 0 .01em, -37em -21em 0 .01em, 10em -17em 0 .01em, 20em -21em 0 .01em, 30em -11em 0 .01em, 40em -19em 0 .01em, 17em -23em 0 .01em, 17em -10em 0 .01em, 25em -14.5em 0 .01em, 37em -12.9em 0 .01em, -11em -21.3em 0 .01em, -20em -22.4em 0 .01em, -30em -15.3em 0 .01em, -40em -19.2em 0 .01em, -15em -21.3em 0 .01em, -17em -22.4em 0 .01em, -25em -10.3em 0 .01em, -37em -9.3em 0 .01em, -11em -22.4em 0 .01em, 10.6em -20.4em 0 .01em, 12.5em -6.9em 0 .01em, 13.6em -8.3em 0 .01em, -5em -21.4em 0 .01em, -6em -13em 0 .01em, -7.4em -15em 0 .01em, -9.2em -22em 0 .01em, 5em -30em 0 .01em, 6em -24em 0 .01em, 7.4em -11em 0 .01em, 9.2em -9.4em 0 .01em, 1em -22em 0 .01em, 2em -14em 0 .01em, 4em -21em 0 .01em, 3.2em -16em 0 .01em, -1em -21em 0 .01em, -2em -19em 0 .01em, -4em -17em 0 .01em, -3.2em -15em 0 .01em;
+            bottom: 200px;
+            opacity: 0;
+          }
+        }
+
+        @media screen and (max-width:767px) {
+          .index-nav-map-wrap {
+            height: auto;
+          }
+
+          .index-nav-map-wrap .index-nav-map {
+            padding-left: .5rem;
+            margin-top: .5rem;
+            padding-right: .5rem;
+          }
+
+          .index-nav-map .logo {
+            float: none;
+            display: block;
+            width: 2rem;
+            margin: 0 auto .8rem;
+          }
+
+          .index-nav-map .map {
+            width: 100%;
+          }
+
+          .index-nav-map .map dl {
+            float: none;
+            margin-right: 0;
+            width: 100%;
+          }
+
+          .index-nav-map .map dl dd {
+            display: none;
+          }
+
+          .index-nav-map .map dl:hover dd {
+            display: block;
+          }
+
+          .index-nav-map .qrcode {
+            float: none;
+            width: 100%;
+          }
+
+          .aligroup-info {
+            display: none;
+          }
+
+          .ualificate-info {
+            display: none;
+          }
+
+          #alimama-footer .alimama-info .link {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+          }
+
+          #alimama-footer .alimama-info .copyright {
+            display: block;
+          }
+
+          #alimama-footer .alimama-info .copyright a,
+          #alimama-footer .alimama-info .copyright span {
+            display: block;
+            text-align: center;
+          }
+
+          #alimama-footer .alimama-info .copyright b {
+            display: none;
+          }
+
+          #alimama-footer .alimama-info a,
+          #alimama-footer .alimama-info span {
+            margin-right: 0;
+          }
+
+          #alimama-footer .alimama-info b {
+            display: inline-block;
+          }
+        }
+      </style>
+
+      <div class="newlivetool livetool" bx-name="newlivetool" bx-path="components/gallery/newlivetool/" id="brix_brick_36"
+        bx-behavior="true">
+        <ul class="tool-list">
+          <li class="gotop" style="display: none;"><a href="https://www.alimama.com/index.htm#"><i class="mm-iconfont"></i><span
+                class="text">返回顶部</span></a></li>
+          <li class="laiwang"><a href="https://www.alimama.com/index.htm#"><i class="icon"></i><span class="text">关注微信</span></a>
+            <div class="qrcode"><img src="./files/TB1n84diMHqK1RjSZJnXXbNLpXa-625-625.jpg"></div>
+          </li>
+          <li class="weibo"><a href="http://weibo.com/taobaoimagine" target="_blank"><i class="icon"></i><span class="text">关注微博</span></a>
+            <div class="qrcode"><img src="./files/TB10uOcFFXXXXXvaFXXrywt4VXX-120-120.png"></div>
+          </li>
+          <li class="help">
+            <p class="ho"><i class="wx-bg"></i><span class="text">在线咨询</span></p>
+          </li>
+        </ul>
+      </div>
+      <div class="meta" style="position: absolute; visibility: hidden;z-index: -1;left: -999px;top: -999px;">
+        <input name="_tb_token_" type="hidden" value="7eeee1e337bba">
+        alimama011176075248.na62
+      </div>
     </div>
-    <div class="meta" style="position: absolute; visibility: hidden;z-index: -1;left: -999px;top: -999px;">
-      <input name="_tb_token_" type="hidden" value="7eeee1e337bba">
-      alimama011176075248.na62
-    </div>
-  </div>
+  </section>
 
   <div class=" aw-wrapper  bluegirl small" style="top: 107px; right: 5px; opacity: 1;">
     <div class="aw-window lowreso-dialog small">
