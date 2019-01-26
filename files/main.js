@@ -9,22 +9,22 @@ $(function () {
         tScrollTop = document.body.scrollHeight;
 
     //经典案例轮播初始化
-    var mySwiper = new Swiper('.slide-content', {
-        autoplay: 3000,
-        loop: true,
-        // 如果需要分页器
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        autoplayDisableOnInteraction: false,
-        // 如果需要前进后退按钮
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        onSlideChangeEnd: function (swiper) {
-            var _index = swiper.activeIndex,
-                _currentElement = swiper.slides[_index];
-            numAnimate(_currentElement);
-        }
-    })
+    // var mySwiper = new Swiper('.slide-content', {
+    //     autoplay: 3000,
+    //     loop: true,
+    //     // 如果需要分页器
+    //     pagination: '.swiper-pagination',
+    //     paginationClickable: true,
+    //     autoplayDisableOnInteraction: false,
+    //     // 如果需要前进后退按钮
+    //     nextButton: '.swiper-button-next',
+    //     prevButton: '.swiper-button-prev',
+    //     onSlideChangeEnd: function (swiper) {
+    //         var _index = swiper.activeIndex,
+    //             _currentElement = swiper.slides[_index];
+    //         numAnimate(_currentElement);
+    //     }
+    // })
 
     //鼠标悬停轮播停止
     $(document.querySelector('.slide-content')).mouseover(function () {
