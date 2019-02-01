@@ -24,7 +24,8 @@
   <script src="./files/jquery-2.0.3.js.下载"></script>
   <script src="./files/swiper.jquery.min.js.下载"></script>
   <script src="./files/numUp.js.下载"></script>
-  <script src="./files/carousel.js.下载"></script>
+  <script src="./files/carousel.js"></script>
+  <script src="./files/carousels.js"></script>
   <meta name="data-spm" content="a2320">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <style>html{font-size:140.4px!important;}</style>
@@ -41,11 +42,11 @@
   <![endif]-->
   <script src="./files/index2.js" id="aplus-sufei"></script>
   <script src="./files/ns_a_51_2_fa.js"></script>
- 
+
 </head>
 
 <body>
-    
+
   <script id="tb-beacon-aplus" src="./files/aplus_v2.js"></script>
 
 
@@ -1494,7 +1495,9 @@
       <div class="w1140">
         <div class="title">
           <p>Product</p>
+          <div class="cube"></div>
         </div>
+
         <div>
           <ul class="dib-box product-list">
             <li class="item dib">
@@ -1599,38 +1602,52 @@
   </section>
   <!-- Game -->
   <section id="Game">
-    <div class="index-media index-section w1140">
-      <div class="title">
-        <p>Game</p>
-      </div>
-      <img src="" alt>
-      <div class="item">
-        <a target="_blank">
-          <div class="icons">
-            <div class="icon-bg"></div>
-            <div class="icon-mask"></div>
-            <img src="./files/TB1._MeSFXXXXbSXpXXXXXXXXXX-370-310.png" alt="" class="img">
-            <div class="icon-hover">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-            <span class="icon"></span>
-          </div>
-          <div class="info">
-            <p class="name">Game</p>
-            <p class="intro">
-              This platform relies on Ios and Android platform to create leisure games
-            </p>
+    <div class="dynamic-box" id="news">
+      <div class="main-title">Game</div>
+      <div class="cube"></div>
+      <div class="pictureSlider poster-main" style="width: 1080px; height: 350px;">
+        <div class="poster-btn poster-prev-btn">
+          <img src="./files/news-arrow-prev.png" alt="prev">
+        </div>
+        <ul class="poster-list" style="width: 1080px; height: 350px;">
+          <a href="https://play.google.com/store/apps/details?id=com.balloo.game" class="poster-item poster-active"
+            style="z-index: 3; width:100px; height: 100px; opacity: 1; left: 468.4px; top: 12.2px;" target="_blank">
+            <img src="files/Ballon-Fly.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.topracegame.rollingballsrace" class="poster-item"
+            style="z-index: 2; width: 399px; height: 220px; opacity: 1; left: 468.4px; top: 12.2px;" target="_blank">
+            <img src="files/Ball-Race.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.freeplay.ballhopper" class="poster-item" style="z-index: 0; width: 324px; height: 178px; opacity: 0.333333; left: 756.324px; top: 33.062px;"
+            target="_blank">
+            <img src="files/Beat-Hopper.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.xinsheng.crush.mania" class="poster-item" style="z-index: 0; width: 324px; height: 178px; opacity: 0.333333; left: 0px; top: 33px;"
+            target="_blank">
+            <img src="files/Egg-Crush.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.WinterGames.EpicRoll" class="poster-item" style="z-index: 1; width: 360px; height: 198px; opacity: 0.5; left: 106px; top: 23.1111px;"
+            target="_blank">
+            <img src="files/Rolling-Cube.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.snakeball.snakeblock" class="poster-item" style="z-index: 2; width: 400px; height: 220px; opacity: 1; left: 212px; top: 12.1235px;"
+            target="_blank">
+            <img src="files/Snake2018.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.helix.helixjumpball.helixjump2019" class="poster-item"
+            style="z-index: 2; width: 400px; height: 220px; opacity: 1; left: 212px; top: 12.1235px;" target="_blank">
+            <img src="files/Sprial-Drop.jpg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.joyfreegame.splashyvortex" class="poster-item"
+            style="z-index: 2; width: 400px; height: 220px; opacity: 1; left: 212px; top: 12.1235px;" target="_blank">
+            <img src="files/Splashy-Ball.jpg">
+          </a>
 
-          </div>
-        </a>
+
+        </ul>
+        <div class="poster-btn poster-next-btn">
+          <img src="./files/news-arrow-next.png" alt="next">
+        </div>
       </div>
     </div>
   </section>
@@ -1640,6 +1657,7 @@
       <div class="index-advantagies">
         <div class="title">
           <p id="bindFeature">Feature</p>
+          <div class="cube"></div>
         </div>
         <!-- Feature优势轮播 -->
         <div class="advantagies-box" bx-name="index_advantagies" bx-path="components/mm/index_advantagies/" data-spm="1098e3423"
@@ -1767,43 +1785,16 @@
     <div class="dynamic-box" id="news">
       <div class="main-title">Partners</div>
       <div class="cube"></div>
-      <div class="pictureSlider poster-main" style="width: 1080px; height: 244px;">
-        <div class="poster-btn poster-prev-btn">
-          <img src="./files/news-arrow-prev.png" alt="微信摇一摇红包-微信摇一摇周边-前一个">
-        </div>
-        <ul class="poster-list" style="width: 1080px; height: 244px;">
-          <a href="https://lktlovelby.github.io/zhangxs.html" class="poster-item poster-active" style="z-index: 3; width:100px; height: 100px; opacity: 1; left: 468.4px; top: 12.2px;"
-            target="_blank">
-            <img src="files/client1.png">
-          </a>
-          <a href="https://www.ledouya.com/news/45.html" class="poster-item" style="z-index: 2; width: 399px; height: 220px; opacity: 1; left: 468.4px; top: 12.2px;"
-            target="_blank">
-            <img src="files/client2.png">
-          </a>
-          <a href="https://www.ledouya.com/news/44.html" class="poster-item" style="z-index: 1; width: 360px; height: 197px; opacity: 0.5; left: 614.36px; top: 23.18px;"
-            target="_blank">
-            <img src="files/client3.png">
-          </a>
-          <a href="https://www.ledouya.com/news/41.html" class="poster-item" style="z-index: 0; width: 324px; height: 178px; opacity: 0.333333; left: 756.324px; top: 33.062px;"
-            target="_blank">
-            <img src="files/client4.png">
-          </a>
-          <a href="https://www.ledouya.com/news/40.html" class="poster-item" style="z-index: 0; width: 324px; height: 178px; opacity: 0.333333; left: 0px; top: 33px;"
-            target="_blank">
-            <img src="files/client5.png">
-          </a>
-          <a href="https://www.ledouya.com/news/37.html" class="poster-item" style="z-index: 1; width: 360px; height: 198px; opacity: 0.5; left: 106px; top: 23.1111px;"
-            target="_blank">
-            <img src="files/client6.png">
-          </a>
-          <a href="https://www.ledouya.com/news/36.html" class="poster-item" style="z-index: 2; width: 400px; height: 220px; opacity: 1; left: 212px; top: 12.1235px;"
-            target="_blank">
-            <img src="files/client7.png">
-          </a>
+      <div class="pictureSlider poster-main" style="width: 1080px; height: 244px; padding-left: 50px;">
+        <ul class="poster-list2" style="display:flex;flex-direction:row;width: 900px; height: 100px;">
+          <img src="files/client1.png" style="padding-left: 20px;">
+          <img src="files/client2.png" style="padding-left: 20px;">
+          <img src="files/client3.png" style="padding-left: 20px;">
+          <img src="files/client4.png" style="padding-left: 20px;">
+          <img src="files/client5.png" style="padding-left: 20px;">
+          <img src="files/client6.png" style="padding-left: 20px;">
+          <img src="files/client7.png" style="padding-left: 20px;">
         </ul>
-        <div class="poster-btn poster-next-btn">
-          <img src="./files/news-arrow-next.png" alt="微信摇一摇红包-微信摇一摇周边-后一个">
-        </div>
       </div>
     </div>
   </section>
@@ -1813,9 +1804,31 @@
       <div class="index-nav-map-wrap">
         <div class="index-nav-map w1140 clearfix">
           <div class="logo" style="width: 150px;margin: 0 50px 0 0;">
-            <img src="./files/logo.png" style="width: 150px;" alt="Cappuccino">
-            <br><br><br><br>
-            <div>Copyright@2018</div>
+            <img src="./files/logo.png" style="width: 200px;" alt="Cappuccino">
+
+            <div style="padding-left:20px;">Copyright@2018</div>
+            <a href="https://www.facebook.com/Cappuccino-Media-228583851394591/?modal=admin_todo_tour">
+              <img src="files/facebook.png" style="margin-left: 9px;
+            display: inline-block;
+            height: 22px;
+            width: 22px;
+            margin-bottom: -6px;    font-family: 'iconfont' !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;"></a>
+            <a href="https://www.linkedin.com/company/14517355/admin/">
+              <img src="files/linked.png" style="margin-left: 9px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-bottom: -6px;    font-family: 'iconfont' !important;
+font-size: 20px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-text-stroke-width: 0.2px;"></a>
           </div>
           <div class="map" style="width:900px;">
             <dl style="
@@ -1825,12 +1838,8 @@
             align-items: flex-start;
             width: 300px;">
               <dt style="font-size: 24px;">About us</dt>
-              <dd>Unit 17 On The The 9th Floor Of Tower</dd>
-              <dd> A Mandarin Plaza,</dd>
-              <dd>No.14 Science Museum Road,</dd>
-              <dd>Bristol, BS2 0UY</dd>
-              <dd>Kowloon,HK
-              </dd>
+              <dd><a href="https://lktlovelby.github.io/zhangxs.html#Product">Product</a></dd>
+              <dd><a href="https://lktlovelby.github.io/zhangxs.html#Feature">Feature</a></dd>
             </dl>
 
             <dl style="
@@ -1839,15 +1848,13 @@
             justify-content: flex-start;
             align-items: flex-start;
             width: 300px;">
-              <dt style="font-size: 24px;">Contact us</dt>
+              <dt style="font-size: 24px;">Solution</dt>
               <dd>
-                <a target="_blank">E-mail: support@cappumedia.com </a>
+                <a href="https://lktlovelby.github.io/zhangxs.html#Product" target="_blank">Monelization </a>
               </dd>
+
               <dd>
-                <a href="https://www.facebook.com/Cappuccino-Media-228583851394591/?modal=admin_todo_tour" target="_blank">Facebook</a>
-              </dd>
-              <dd>
-                <a href="https://www.linkedin.com/company/14517355/admin/" target="_blank">LinkedIn</a>
+                <a href="https://lktlovelby.github.io/zhangxs.html#Product" target="_blank">E-Commercial Plus</a>
               </dd>
             </dl>
             <dl style="
@@ -1856,7 +1863,7 @@
             justify-content: flex-start;
             align-items: flex-start;
             width: 300px;">
-              <dt style="font-size: 24px;">Send a message</dt>
+              <dt style="font-size: 24px;">Contact us</dt>
               <dd>
                 <form id="main-contact-form" name="contact-form" style="
                 display: flex;
@@ -1866,35 +1873,53 @@
                 "
                   method="post" action="http://cappuccinocreative.com/sendemail.php">
                   <div style="display: flex;
-                  flex-direction: row; justify-content: space-between; width:300px">
-                    <div>Name:</div>
-                    <input type="text" name="name" style="width: 200px;" required="required">
+                  flex-direction: row;">
+                    <img src="files/email.png" style="margin-left: 9px;
+                display: inline-block;
+                height: 22px;
+                width: 22px;
+                margin-bottom: -6px;    font-family: 'iconfont' !important;
+        font-size: 20px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-stroke-width: 0.2px;">
+                    <div>:&nbsp;Support@cappumedia.com</div><br>
                   </div>
                   <div style="display: flex;
-                  flex-direction: row; justify-content: space-between; width:300px">
-                    <div>Email:</div>
-                    <input type="email" name="email" style="width: 200px;" required="required">
+                  flex-direction: row;">
+                    <img src="files/phone.png" style="margin-left: 9px;
+                display: inline-block;
+                height: 22px;
+                width: 22px;
+                margin-bottom: -6px;    font-family: 'iconfont' !important;
+        font-size: 20px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-stroke-width: 0.2px;">
+                    <div>:&nbsp;+8618710841756</div><br>
                   </div>
                   <div style="display: flex;
-                  flex-direction: row; justify-content: space-between; width:300px">
-                    <div>Text:</div>
-                    <textarea name="message" id="message" style="width: 200px;" required="required" class="form-control"
-                      rows="8" placeholder="Your text here"></textarea>
-                  </div>
-                  <div style="display: flex;width:300px">
-                    <input type="submit" name="submit" style="width: 100%;
-                    background-color: #DDD;
-                    color: #fff;
-                    font-size: 14px;
-                    font-weight: 300;
-                    letter-spacing: 5px;
-                    text-transform: uppercase;
-                    border-radius: 3px;
-                    margin-top: 5px;
-                    border-bottom: 3px solid #2f9697;
-                    box-shadow: none;
-                    padding: 10px;"
-                      value="Submit">
+                  flex-direction: row;">
+                    <img src="files/weizhi.png" style="margin-left: 9px;
+                display: inline-block;
+                height: 22px;
+                width: 22px;
+                margin-bottom: -6px;    font-family: 'iconfont' !important;
+        font-size: 20px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-stroke-width: 0.2px;">
+                    <div style="display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;"> 
+                      <div>:&nbsp;Unit&nbsp;17&nbsp;Floor&nbsp;Of&nbsp;Tower</div>
+                      <div>&nbsp;A&nbsp;Mandarin&nbsp;Plaza</div>
+                      <div>&nbsp;Kowloon,Hong&nbsp;Kong</div>
+                    </div>
                   </div>
                 </form>
               </dd>
@@ -2279,43 +2304,43 @@
     </div>
   </section>
   <script>
-      document.getElementById("bindFeature").onclick= function(){
-        console.log("feature")
-      }
-     document.getElementById('slide1').onclick = function () {
-       slide1()
-     };
-     function slide1() {
-       document.getElementById("swiper1").style.display = 'block';
-       document.getElementById("swiper2").style.display = 'none';
-       document.getElementById("swiper3").style.display = 'none';
-       document.getElementById("slide1").style.backgroundColor = '#fff' ;
-       document.getElementById("slide2").style.backgroundColor = '';
-       document.getElementById("slide3").style.backgroundColor = '';
-     };
-     document.getElementById('slide2').onclick = function () {
-       slide2()
-     };
-     function slide2() {
-       document.getElementById("swiper1").style.display = 'none';
-       document.getElementById("swiper2").style.display = 'block';
-       document.getElementById("swiper3").style.display = 'none';
-       document.getElementById("slide1").style.backgroundColor = '' ;
-       document.getElementById("slide2").style.backgroundColor = '#fff';
-       document.getElementById("slide3").style.backgroundColor = '';
-     };
-     document.getElementById('slide3').onclick = function () {
-       slide3()
-     };
-     function slide3() {
-       document.getElementById("swiper1").style.display = 'none';
-       document.getElementById("swiper2").style.display = 'none';
-       document.getElementById("swiper3").style.display = 'block';
-       document.getElementById("slide1").style.backgroundColor = '' ;
-       document.getElementById("slide2").style.backgroundColor = '';
-       document.getElementById("slide3").style.backgroundColor = '#fff';
-     };
-   </script>
+    document.getElementById("bindFeature").onclick = function () {
+      console.log("feature")
+    }
+    document.getElementById('slide1').onclick = function () {
+      slide1()
+    };
+    function slide1() {
+      document.getElementById("swiper1").style.display = 'block';
+      document.getElementById("swiper2").style.display = 'none';
+      document.getElementById("swiper3").style.display = 'none';
+      document.getElementById("slide1").style.backgroundColor = '#fff';
+      document.getElementById("slide2").style.backgroundColor = '';
+      document.getElementById("slide3").style.backgroundColor = '';
+    };
+    document.getElementById('slide2').onclick = function () {
+      slide2()
+    };
+    function slide2() {
+      document.getElementById("swiper1").style.display = 'none';
+      document.getElementById("swiper2").style.display = 'block';
+      document.getElementById("swiper3").style.display = 'none';
+      document.getElementById("slide1").style.backgroundColor = '';
+      document.getElementById("slide2").style.backgroundColor = '#fff';
+      document.getElementById("slide3").style.backgroundColor = '';
+    };
+    document.getElementById('slide3').onclick = function () {
+      slide3()
+    };
+    function slide3() {
+      document.getElementById("swiper1").style.display = 'none';
+      document.getElementById("swiper2").style.display = 'none';
+      document.getElementById("swiper3").style.display = 'block';
+      document.getElementById("slide1").style.backgroundColor = '';
+      document.getElementById("slide2").style.backgroundColor = '';
+      document.getElementById("slide3").style.backgroundColor = '#fff';
+    };
+  </script>
 </body>
 
 </html>
