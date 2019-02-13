@@ -1,6 +1,6 @@
 /**
- * author : chenwei
- * date : 2017-08-10
+ * author : kt
+ * date : 2019-01-15
  * */
 
 $(function () {
@@ -59,8 +59,8 @@ $(function () {
 
             l1 = 0,
             l2 = $('.index-banner-wrap').height(),
-            l3 = $('.index-banner-wrap').height() + wHeight + 100 ,
-            l4 = wHeight + $('.index-banner-wrap').height() + $('.index-products-wrap').height() +60,
+            l3 = $('.index-banner-wrap').height() + wHeight + 100,
+            l4 = wHeight + $('.index-banner-wrap').height() + $('.index-products-wrap').height() + 60,
             l5 = wHeight + $('.index-banner-wrap').height() + $('.index-products-wrap').height() + $('.index-cases-wrap').height() + 70 * 2,
             l6 = wHeight + $('.index-banner-wrap').height() + $('.index-products-wrap').height() + $('.index-cases-wrap').height() + $('.index-advantagies-wrap').height() + 50 * 3,
             l7 = wHeight + $('.index-banner-wrap').height() + $('.index-products-wrap').height() + $('.index-cases-wrap').height() + $('.index-advantagies-wrap').height() + $('.index-media').height() + $('.new-footer').height() + 80 * 4;
@@ -68,29 +68,29 @@ $(function () {
         anchors.on('click', function () {
             var anchor = $(this).data('anchor');
             switch (anchor) {
-                case 1 :
-                    scrollAnimate({distance: l1, anchor_id: anchor});
+                case 1:
+                    scrollAnimate({ distance: l1, anchor_id: anchor });
                     break;
-                case 2 :
-                    scrollAnimate({distance: l2, anchor_id: anchor});
+                case 2:
+                    scrollAnimate({ distance: l2, anchor_id: anchor });
                     break;
-                case 3 :
-                    scrollAnimate({distance: l3, anchor_id: anchor});
+                case 3:
+                    scrollAnimate({ distance: l3, anchor_id: anchor });
                     break;
-                case 4 :
-                    scrollAnimate({distance: l4, anchor_id: anchor});
+                case 4:
+                    scrollAnimate({ distance: l4, anchor_id: anchor });
                     break;
-                case 5 :
-                    scrollAnimate({distance: l5, anchor_id: anchor});
+                case 5:
+                    scrollAnimate({ distance: l5, anchor_id: anchor });
                     break;
-                case 6 :
-                    scrollAnimate({distance: l6, anchor_id: anchor});
+                case 6:
+                    scrollAnimate({ distance: l6, anchor_id: anchor });
                     break;
-                case 7 :
-                    scrollAnimate({distance: l7, anchor_id: anchor});
+                case 7:
+                    scrollAnimate({ distance: l7, anchor_id: anchor });
                     break;
-                default :
-                    scrollAnimate({distance: 0, anchor_id: anchor});
+                default:
+                    scrollAnimate({ distance: 0, anchor_id: anchor });
                     break;
             }
         })
@@ -100,7 +100,7 @@ $(function () {
         $(window).on('scroll', function () {
             var currentOffsetTop = $('html').scrollTop();
             if (isScroll) return false;
-            if (currentOffsetTop < l2) {
+            if (currentOffsetTop < l2) {  
                 anchors.removeClass('active');
                 $('.product[data-anchor="1"]').addClass('active');
             } else if (currentOffsetTop < l3) {
@@ -133,7 +133,7 @@ $(function () {
             anchors.removeClass('active');
             $('.product[data-anchor=' + options.anchor_id + ']').addClass('active');
 
-            $('html').animate({scrollTop: options.distance}, 600, function () {
+            $('html').animate({ scrollTop: options.distance }, 600, function () {
                 isScroll = false;
             });
         }
@@ -169,7 +169,7 @@ $(function () {
                 name: name,
                 telephone: phone,
                 address: area,
-                remark:'乐豆呀PC官网：'+extra,
+                remark: '乐豆呀PC官网：' + extra,
                 device: 'pc',
                 product_type: '乐豆呀红包盒PC官网',
                 type: 1
