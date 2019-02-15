@@ -27,11 +27,11 @@ $(function () {
     // })
 
     //鼠标悬停轮播停止
-    $(document.querySelector('.slide-content')).mouseover(function () {
-        mySwiper.stopAutoplay();
-    }).mouseout(function () {
-        mySwiper.startAutoplay();
-    })
+    // $(document.querySelector('.slide-content')).mouseover(function () {
+    //     mySwiper.stopAutoplay();
+    // }).mouseout(function () {
+    //     mySwiper.startAutoplay();
+    // })
 
     //公司动态轮播初始化
     Carousel.init($(document.querySelector('.pictureSlider')), {
