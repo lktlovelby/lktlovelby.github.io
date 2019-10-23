@@ -23,13 +23,11 @@
 	  </audio> -->
 
 	<div id="fullpage">
-			<audio autoplay  loop src="photo/love.mp3" autoplay="autoplay">
+		<audio autoplay loop src="photo/love.mp3" autoplay="autoplay">
 
-			</audio>
+		</audio>
 
 		<div id="firstsection" class="section">
-
-
 
 			<div class="velas">
 				<div class="fuego"></div>
@@ -80,7 +78,6 @@
 				<br>
 				<p>假如你愿意 我想我可以给你幸福</p>
 				<div id="lara"></div>
-
 			</div>
 		</div>
 
@@ -98,16 +95,21 @@
 
 
 		<!--隐藏彩蛋？-->
-		<div class="section fp-auto-height final_section">
-			<div>
-				<h1><del>彩蛋</del></h1>
-				<p>好啦，这个我见面给你！</p>
+		<div class="section fp-auto-height final_section" >
+			<div style="height: 100px;">
+				<h1>还有个彩蛋，我见面给你！</h1>
+				<p></p>
 			</div>
 		</div>
 
 
 	</div>
-
+	<footer
+		style="bottom: 0;cursor: default;height: 6em;left: 0;line-height: 8em;position: absolute;text-align: center;width: 100%;">
+		<span class="copyright" style="color: #696969;font-size:16px;">
+			&copy; Powered by Curtin
+		</span>
+	</footer>
 
 	<!-- 这是v1.11.0的jquery -->
 	<script src='js/jquery.js'></script>
@@ -118,7 +120,7 @@
 	<script language="javascript">
 		function show_date_time() {
 			window.setTimeout("show_date_time()", 1000);
-			BirthDay = new Date("01/01/2017 00:00:00");//这个日期是可以修改的
+			BirthDay = new Date("12/17/2016 00:00:00");//这个日期是可以修改的
 			today = new Date();
 			timeold = (today.getTime() - BirthDay.getTime());
 			sectimeold = timeold / 1000
